@@ -1,4 +1,6 @@
-# Module Exercise: HTML & CSS
+![Image description](https://i1.faceprep.in/ProGrad/face-logo-resized.png)
+
+# ProGrad Lab | HTML & CSS - NPM clone
 
 ## Learning Goals
 
