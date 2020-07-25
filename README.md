@@ -81,7 +81,7 @@ Your task in this iteration will be to create the `header` and `nav`, which are 
 - the upper div contains another div with image and some text, and besides this, it has _nav_ tag with list displayed horizontally
 - the bottom div has the logo, search bar (which is _form_) and some buttons all the way left.
 
-![]()
+![](https://ilkcng.bn.files.1drv.com/y4m6QVvhtgzJoBCQ_KtAAWCPb_LBNNGHx924XIQUp6wk5kQ8DNgHo68ZbufSvpjbzNmfA4b8P867jMXXYNJgHGZ12zF_vhB1YG-qPwZY3hwL3mVFhyZvAUa-fQCDihA8F3SfLnNXAljiZ-vEWbNr-hOL4IPee5ZJR2hkZTVKtFHkSdjNiDFjrwOJ_NyxaFBCOwuO7ThXvcsjY970QI-6HMFAg?width=1343&height=231&cropmode=none)
 
 However, remember, on the image above styles are already applied so our final result won't be quite the same.
 
@@ -113,7 +113,7 @@ We could try to represent this part of the website with the following:
 ```
 
 When done, you should get something similar to this:
-![]()
+![](https://i1kkng.bn.files.1drv.com/y4my_WhrKPkpsURXdy9QfwVr2njh8zEP14MIQQggSlq1gLZeQaDOETtYucGikE25Z0JXub4KrrC4uKCHd0smND3068teDNY5zDKgM59saRN04xQd1e-aFKgUy9Lh9xPXZsiD9sketHzoMTbGljGaxqBT9D51Oeea_4z705FjXeL4cOyybtfFlw1dPk4SeBT1WWlGJ10grhhfSPtdVi8eYmRig?width=1416&height=1126&cropmode=none)
 
 You're ready to move to the next iteration. :raised_hands:
 
