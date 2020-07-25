@@ -57,7 +57,14 @@ So let's get started!
 ### Part I - pure HTML (no styles applied)
 
 It might seem like a joke, but this is our goal in this iteration:
-
+![1](https://i1kdng.bn.files.1drv.com/y4mNhLR86qK3PsPFg7f51D4Vc1mzvfjOIc4-6LNPiLUsORsznxV8nkFQgn9gOIZUBkgATeoNuYoI247klDZfbl7WQrME1t9_X2oWAkFPtwBkpFvvVCyBelDiHXLTiOEQlDMSV18xBM19mBFut-3cUWcNIiiDJg_4lqwAkoEzbynUHCB4xz0_4rNLX-ui2wb0-266ezsQ4FUHbWfc-Wvcq3iGg?width=1343&height=491&cropmode=none)
+![2](https://i1kcng.bn.files.1drv.com/y4mZLUmausPXprCemTmSplK2STDZ_9F9QLwlMjf1Goa_3-2E7Twmoq2KU3UZnkU41oNtwwCgc6M-XP9EN-VldKnhMk6JbTfjzCqEyDDlJJQXA-EjwMXCMdaykK33pyQN-JCMLCuWGV8G5dAOMgOrc8b7dNNi1x9SL2K5CsD0pd2wxKvFxYgy4oqNF-vjd8rc9LNLXkLojMmBY5xBOMiYNfJ-w?width=1344&height=488&cropmode=none)
+![3](https://i1kbng.bn.files.1drv.com/y4m_3jtSZwNm-cZcIZUTm1Y90TKsw6f--R3mvP5j4W8Z6GuQKvQnsi_oj6-uMp1w1PKsCYdbQopA3YkGXZ_bGo8jyKyh07nEQUnM9u8U4sxAOblLMWuadvlypIBQDPqBgNe_vuJ1WoS8mxBGrxCXBk71BE1ERnQqrn9eMCTrqJbZHEp32Qt6v0KNYIS7p4YUGX-TjFTH33UblvkTNEE-YZ7Ng?width=1338&height=547&cropmode=none)
+![4](https://i1jqng.bn.files.1drv.com/y4ml_gCvvuYXIaaGT-jngL180WPSzfrTSg43XMSaS0vTy8zOGEcZ_x5BzkoCr8yz_e_uz-j-OZBHou2ceuuiNTGkRBtqxKvQR-9uBGeODt2fEascv1o1WpadBLFrS1QQlG0EXOPanZdYRJa5yDi8clM3IEijaZLz-7jE15QlQd3i6JjmBj0Vc8hSUBirVUgb6YrgzAWxproeMPt_4pLA2f0wg?width=1339&height=552&cropmode=none)
+![5](https://i1kang.bn.files.1drv.com/y4mpgL4exBVWIgP4nEuJ3bpIe3RbVnuDWzPBRBt5IgRaWo3EXpPoY670NM4wcZJ2AsJ2kxJk6YfpndQquA4tKFA40_xW6MFloshnWt1EydtTuUk95oSPtvrJEuMD3TtA-zZPYoXMUC3AKJ0v02kIeIwgjwjWxEhXfDTDrGC6-NgE1ut4QF-PIxNRWuQAMmWL4NvoHL38HlVESTvb48rJSUeyg?width=1344&height=537&cropmode=none)
+![6](https://i1jpng.bn.files.1drv.com/y4mezIZPz_zc4jHIdoRDRsniEGSUi6RTTTbqqZyfSBmjph_U9ftEBXLMzrgUedCRjL76UUManma21bKYcElIXgNGMrHgwBQl1wOmDAxbJqTaWqVi9qc-Q5cj8MexHSuSoLde1sy1bbN_y-vRPyYQvX1EWBg0fKYH1GAJHD4HTTsGqEEvOF-eSDnySbYLgc-A-fvorzbdziuCmAwwOLk5TtlsQ?width=1340&height=80&cropmode=none)
+![7](https://i1j9ng.bn.files.1drv.com/y4mB8Bx0gYxhCox8JyGghX7-MzYkdvRHh2UdIkW1gRHmDIwkxfXY-YEPI7dBTs0DILfAXwk0R1nqcfHpSe33oHbl663hvs_F-gAvJF7J-Fa9md7uCVuCctczLJVizapigJ4SpX0iwEpCB4fOiwI5K7R6OcPWHLsvzWKyv5r5k7slFJNtMPNFhqh61PGYjVClrU1lq1jOG6N_ny9GR_rBwoXIA?width=1337&height=503&cropmode=none)
+![8](https://i1j8ng.bn.files.1drv.com/y4mkGXi4GNyy3EgwMVCR-d8d5bhraTuruUDYtCfQqjmuPE1zB1-rrKxlYJs1eSdQVyM-6tMinofZlXF0QpCsLIGj-P1QmIGBAF-A2n-u6tL6K3pW6J0UnmRkglmpRvZuqs5sKWlDrecRz7K7fJqgGDeb3b6SQrhzlZjVaV5x9bWOPw6U61ENCvQJxtVREO-5D-D7c4sG_ael_2572-Y3mDjmw?width=1344&height=451&cropmode=none)
 
 <br>
 
