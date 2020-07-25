@@ -13,12 +13,12 @@ In this exercise, the goal is to apply as many as possible of the concepts you'v
 
 ## Getting started
 
-1. [Fork](https://gist.github.com/ironhack-edu/dd3635de73a6ef07ef337bf184eda985#step-1-fork-the-repository) this repo
-2. [Clone](https://gist.github.com/ironhack-edu/dd3635de73a6ef07ef337bf184eda985#step-2-clone-the-repository) this repo
+1. [Fork](https://github.com/FACEPrep-ProGrad/project-builder-html-css-npm) this repo
+2. [Clone](https://github.com/FACEPrep-ProGrad/project-builder-html-css-npm) this repo
 
 Whenever you create a first significant change, you should make your first commit.
 
-3. Follow these [guidelines to add, commit and push changes](https://gist.github.com/ironhack-edu/dd3635de73a6ef07ef337bf184eda985#step-3-add-commit-and-push-the-changes).
+3. Follow these [guidelines to add, commit and push changes](https://github.com/FACEPrep-ProGrad/general-guidelines-labs-project-builders.git).
 
 In the end of this document, you will find guidelines on how to submit the exercise.
 
@@ -34,7 +34,7 @@ Our goal is to get as close as possible to this:
 
 ![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7c45ec577a3e16793ae4e0abfeb80df9.png)
 
-You can see the larger version of this picture [here](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7c45ec577a3e16793ae4e0abfeb80df9.png). If you're struggling to see the details, feel free to zoom in to 200%.
+(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7c45ec577a3e16793ae4e0abfeb80df9.png). If you're struggling to see the details, feel free to zoom in to 200%.
 Although it doesn't look too complicated, we will have to apply quite a few styles on our web page: set a background color on different elements, set a font weight (bold, normal), and position elements using our newly acquired skills in flexbox.
 
 We will divide our work into two parts:
