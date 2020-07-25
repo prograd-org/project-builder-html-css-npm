@@ -32,9 +32,9 @@ In this exercise, you will clone the landing page of the **NPM website**. NPM st
 
 Our goal is to get as close as possible to this:
 
-![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7c45ec577a3e16793ae4e0abfeb80df9.png)
+![]()
 
-(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7c45ec577a3e16793ae4e0abfeb80df9.png). If you're struggling to see the details, feel free to zoom in to 200%.
+(). If you're struggling to see the details, feel free to zoom in to 200%.
 Although it doesn't look too complicated, we will have to apply quite a few styles on our web page: set a background color on different elements, set a font weight (bold, normal), and position elements using our newly acquired skills in flexbox.
 
 We will divide our work into two parts:
@@ -50,9 +50,9 @@ So let's get started!
 
 It might seem like a joke, but this is our goal in this iteration:
 
-![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_a00f9aadceb92aed72cd6b1158c3fd01.png)
-![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_abbbad2549a71232f29c725f6ef59731.png)
-![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_c497a8394cb74b0f576e16c6fd2fb894.png)
+![]()
+![]()
+![]()
 
 <br>
 
@@ -60,7 +60,7 @@ The very first step is deciding **how to structure the page and picking the corr
 
 Our recommendation is to try to keep it as simple as possible. Try to identify the different sections, and add `id`'s or `classes` to each `<div>`, `<section>`, `<ul>`, or `<header>` block elements to identify these elements. Here is suggested guideline but you might have something on your mind that is different from this - bring it up.
 
-![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_b66cd7ffb1375749905516dfc0961979.png)
+![]()
 
 #### HTML 1 | `<header>` & `<nav>`
 
@@ -69,7 +69,7 @@ Your task in this iteration will be to create the `header` and `nav`, which are 
 - the upper div contains another div with image and some text, and besides this, it has _nav_ tag with list displayed horizontally
 - the bottom div has the logo, search bar (which is _form_) and some buttons all the way left.
 
-![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_360ab52dd3d20cff448f14b15df7884d.png)
+![]()
 
 However, remember, on the image above styles are already applied so our final result won't be quite the same.
 
@@ -101,7 +101,7 @@ We could try to represent this part of the website with the following:
 ```
 
 When done, you should get something similar to this:
-![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_92cd0c6386e916d28cc1621b2eabd35d.png)
+![]()
 
 You're ready to move to the next iteration. :raised_hands:
 
@@ -158,7 +158,7 @@ Now we are ready to start adding some styles to our page.
 
 In the first part of this exercise, you created the header and inside it the navbar. Now we have to add some styles to make it more like this:
 
-![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_360ab52dd3d20cff448f14b15df7884d.png)
+![]()
 
 We'll help you style the part of the code we previously provided for you - the upper _div_ of the _header_ tag.
 
@@ -206,7 +206,7 @@ Make sure to use flexbox at any time where you need to position elements on a sp
 
 #### CSS 3 | section 1
 
-![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_d8ae51bd44240ddd2c7d75361bb6397d.png)
+![]()
 
 In this section, as you can see everything is _centered_. You can add some flexbox rules to the _id_ you attached to this section such is _display: flex;_ and _justify-content: center;_. But this is just the beginning - you still have to set _align-items_ and _flex-direction_.
 
@@ -219,7 +219,7 @@ _Useful information_:
 
 #### CSS 4 | section 2
 
-![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7a14f0913389dcad5f78e1940267ed85.png)
+![]()
 
 This section has pretty much the same layout as the previous - some code to be reused :wink:.
 
@@ -236,7 +236,7 @@ Again use a lot of flexbox to get the right position of elements - direction, ju
 
 #### CSS 5 | section 3
 
-![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7b69fd57e04d20183daed40e39b2001f.png)
+![]()
 
 _Useful information_:
 
@@ -246,13 +246,13 @@ _Useful information_:
 
 ## Submission
 
-If you didn't [add, commit and push the changes](https://gist.github.com/ironhack-edu/dd3635de73a6ef07ef337bf184eda985#step-3-add-commit-and-push-the-changes) you made, this is the last call. :smile:
+If you didn't [add, commit and push the changes]() you made, this is the last call. :smile:
 
-And at the same time, if you didn't [create a pull request](https://gist.github.com/ironhack-edu/dd3635de73a6ef07ef337bf184eda985#step-4-create-a-pull-request) this is the time for that as well.
+And at the same time, if you didn't [create a pull request]() this is the time for that as well.
 
 Your TAs will check up your work and provide feedback.
 
-**Once again, a friendly reminder**: You don't have to wait to finish everything in order to follow the steps listed in the [guidelines](https://gist.github.com/ironhack-edu/dd3635de73a6ef07ef337bf184eda985). In a moment when you've made a first significant step in working on this assessment, we advise you to make a pull request. Starting from that moment, every change you make will be automatically added to that pull request and will be visible to your TAs for a checkup.
+**Once again, a friendly reminder**: You don't have to wait to finish everything in order to follow the steps listed in the [guidelines](). In a moment when you've made a first significant step in working on this assessment, we advise you to make a pull request. Starting from that moment, every change you make will be automatically added to that pull request and will be visible to your TAs for a checkup.
 
 ## Summary
 
