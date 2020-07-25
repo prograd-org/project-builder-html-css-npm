@@ -170,7 +170,7 @@ Now we are ready to start adding some styles to our page.
 
 In the first part of this exercise, you created the header and inside it the navbar. Now we have to add some styles to make it more like this:
 
-![]()
+![](https://ilkcng.bn.files.1drv.com/y4m6QVvhtgzJoBCQ_KtAAWCPb_LBNNGHx924XIQUp6wk5kQ8DNgHo68ZbufSvpjbzNmfA4b8P867jMXXYNJgHGZ12zF_vhB1YG-qPwZY3hwL3mVFhyZvAUa-fQCDihA8F3SfLnNXAljiZ-vEWbNr-hOL4IPee5ZJR2hkZTVKtFHkSdjNiDFjrwOJ_NyxaFBCOwuO7ThXvcsjY970QI-6HMFAg?width=1343&height=231&cropmode=none)
 
 We'll help you style the part of the code we previously provided for you - the upper _div_ of the _header_ tag.
 
