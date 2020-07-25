@@ -218,29 +218,20 @@ Make sure to use flexbox at any time where you need to position elements on a sp
 
 #### CSS 3 | section 1
 
-![]()
+![](https://jfkdng.bn.files.1drv.com/y4mzOyjw3kqXQg3nTxbTjuC894f48nIFHQu0VQKSkMtlnMPSHBkBaK3uwYGfdmhu2mMlgLpDOspKEHcDD_x-F1DF8oUbE-onEwyLTpUNFBcxJcswDb_l_NsV_Ev5lKP_RSC9-WQWbKLfSG7YEBN0TOfjDyXc_tUcvS1uhClPi1hWh2RiLOKFVyrB6eX8s123to5CIbV1-ie0vvOIIqynWPDcQ?width=1353&height=665&cropmode=none)
 
 In this section, as you can see everything is _centered_. You can add some flexbox rules to the _id_ you attached to this section such is _display: flex;_ and _justify-content: center;_. But this is just the beginning - you still have to set _align-items_ and _flex-direction_.
 
 _Useful information_:
 
-- suggested height for this section: 600px
-- background color: rgba(232,217,217,.3)
-- "See plans" button background color: #FB3B49
-- "See plans" button box shadow: 8px 8px 0 rgba(251,59,73,.2)
+- background image is inside the assets folder.
+
 
 #### CSS 4 | section 2
 
-![]()
+![](https://jfkcng.bn.files.1drv.com/y4mFB6mDVX6J_QjQVZu7FWI62rOk4AoJ7zLJOpPqORJ8oWzHiBbEYQLmCL8PTFyW-shO5bJVjspXJOkj7BclLx6RzByqbZ56s_poyYCEr1OXVQY_xGoNzxw_y-sxvyC7f0rJowqVvdlTM40J84uzHOrIFl9W2XVfoo_yRffbluOOSOt7IVWDhRvXsUE1ge8ytNEqjQ4zcZBSyZKUJHB3W6ruw?width=1342&height=521&cropmode=none)
 
 This section has pretty much the same layout as the previous - some code to be reused :wink:.
-
-_Useful information_:
-
-- _heading background color_: rgba(255,204,53,.4)
-- to get the transform of the yellow background in the left-hand direction use: _transform: skew(9deg,0deg);_
-- to get it in the opposite direction of the letters, the way we need it on the page, use: _font-style: italic;_
-- to additionally fine-tune the position of each element, use _margin_ property.
 
 Again use a lot of flexbox to get the right position of elements - direction, justify-content, align-items.
 
@@ -248,13 +239,19 @@ Again use a lot of flexbox to get the right position of elements - direction, ju
 
 #### CSS 5 | section 3
 
-![]()
+![](https://jfkbng.bn.files.1drv.com/y4muKKDFqdl9Nx5-smP15fV5gpOxfOITKgZfCprN-4VgssGJor5DxtsLdkkIkN0qRZNSujwfZPjwoTs69eW0W2WX2SnRawSoWu5yEiKz81OQZm7C2iV7pQnDWNd4ap5z64AVrA3PQrQrIBs-TsPr53TN_TD0Raw_iGUfHMRCPmh8fXUW_E5t83J-uvQX2A73V8oHqgQZp79o0u2mg1p7oU9SQ?width=1346&height=444&cropmode=none)
 
-_Useful information_:
+#### CSS 6 | section 4
 
-- color of the letters in each heading in this section: #ED1C24
-- "Create an Org" box shadow: 8px 8px 0 rgba(128,83,35,.2)
-- "Create an Org" letters color: white
+![](https://jfkang.bn.files.1drv.com/y4m86eISxpwtCD7HHun540D_TRoLKCV3MLPxOzBgOvkD2eBGFHDjz24s5QkMnmnDFi3KkN6IjLpxIjzuLFFjNxh3ABVCB0713sJxV8EZ-8i0K1NbmGj5OLGJAoO1yb_THY80ushGtynjdImqQ9yxHTPK60RI8izJ5SYfJtixg2gC2lwAxM9bgSUgLBhFU8r2-v4TapfdfwHkpJYwecRFl8dHA?width=1347&height=326&cropmode=none)
+
+#### CSS 7 | section 5
+![](https://jfjqng.bn.files.1drv.com/y4mt88RWimlHj8iihCWedLjY8RyBzO4rn5h9JEYVjdCtXEbRtvbtqKcmk-kAWDhNwClt44zS-l1u9KM4VTrCqLl-EyixGiDrnpaEumYXWlc33goduuHTb8RScZFUrBNR-bqpdNWN8ZeRxLQSzEogXa3cU0Noi95U92ocx7Z8VPshkXSHDN8kA-OZ6uFHBNn8BJOPT2RypfRKo8G05XECNR8FQ?width=1348&height=176&cropmode=none)
+![](https://jfjpng.bn.files.1drv.com/y4myLEYi6ScJR_Zj-Sy8kf3D7AyGLDwSr2TajDTJIwXAp3difAZb9eqRmK3R5i6GhDn8G32zmawWd-D3IECCDcynwaN0PdFJCdwkuqkpIXzMXTs12rawBQl6-kiF6U4QVqpFYFVj9KJJKyyJzPR7E_UJiZQisjcGuEn2BoXqvPEWSHgwrarPXH8RwpQec4bevyo9pBEqcmB2d-0rGy_D_O1KA?width=1345&height=662&cropmode=none)
+
+#### CSS 8 | section 6
+
+![](https://jfj9ng.bn.files.1drv.com/y4mxCTWRZpLvcD2WGtO2QEuSdtWPtXg6o5Q9dk06Jy6nzqGmO8pCR9L8Ly1RoGkELEKZReKEUy5YK6JHF2gMUh-WjKEWcdYDDQUtGJYfLvkaYMZeaG2AYY5t6hDPIy6h1QBPIZV1PgRG2ikVH-uPzOzIuN6R9wUkGMd2dSvl5TFwu3y9lMn6WCrDGhQj8sEzJPPz1y3Q5USafiIH8u1J0xOaA?width=1348&height=402&cropmode=none)
 
 ## Submission
 
