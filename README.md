@@ -255,13 +255,13 @@ Again use a lot of flexbox to get the right position of elements - direction, ju
 
 ## Submission
 
-If you didn't [add, commit and push the changes]() you made, this is the last call. :smile:
+If you didn't [add, commit and push the changes](https://github.com/FACEPrep-ProGrad/project-builder-html-css-npm) you made, this is the last call. :smile:
 
-And at the same time, if you didn't [create a pull request]() this is the time for that as well.
+And at the same time, if you didn't [create a pull request](https://github.com/FACEPrep-ProGrad/project-builder-html-css-npm) this is the time for that as well.
 
 Your TAs will check up your work and provide feedback.
 
-**Once again, a friendly reminder**: You don't have to wait to finish everything in order to follow the steps listed in the [guidelines](). In a moment when you've made a first significant step in working on this assessment, we advise you to make a pull request. Starting from that moment, every change you make will be automatically added to that pull request and will be visible to your TAs for a checkup.
+**Once again, a friendly reminder**: You don't have to wait to finish everything in order to follow the steps listed in the [guidelines](https://github.com/FACEPrep-ProGrad/project-builder-html-css-npm). In a moment when you've made a first significant step in working on this assessment, we advise you to make a pull request. Starting from that moment, every change you make will be automatically added to that pull request and will be visible to your TAs for a checkup.
 
 ## Summary
 
