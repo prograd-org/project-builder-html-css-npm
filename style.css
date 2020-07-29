@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+.top {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(44, 39, 39);
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: Auto;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 150;
+}
+
+#search {
+    width: 60%;
+    height: 40px;
+    background-color: rgb(230, 227, 230);
+    border-style: none;
+}
+
+header>div {
+    padding: 12px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+header button {
+    width: 100px;
+    height: 40px;
+    border-style: none;
+    text-align: center;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+#search-box {
+    background-color: black;
+    color: white
+}
+
+header button:hover {
+    cursor: pointer;
+    color: rgb(143, 128, 128);
+}
+
+nav {
+    width: 600px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.blackHeart {
+
+    width: 20px;
+    margin-right: 1rem;
+}
+
+
+.home {
+    background: url(./assets/background2.png);
+    background-color: white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.home h2 {
+    font-size: 2.2em;
+    text-align: center;
+    padding: 10px;
+}
+
+.home p {
+    padding: 10px;
+}
+
+.build {
+    font-size: 5em;
+    text-align: center;
+    padding: 100px 0 30px 0;
+}
+
+.button1 {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0;
+}
+
+.button1 button {
+    width: 16em;
+    height: 4em;
+    font-size: 16px;
+    font-weight: 100px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 15px;
+
+}
+
+#bt1 {
+    background: #c12127;
+    border-bottom: solid 5px #fa8717;
+}
+
+#bt2 {
+    background: #e81aa8;
+    border-bottom: solid 5px #b30ad2;
+
+}
+
+.second {
+    text-align: center;
+    padding: 5em 50px;
+}
+
+
+.second {
+    text-align: center;
+    padding: 5em 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.second h2 {
+    font-size: 2.5em;
+    padding-bottom: 5%;
+}
+
+.products article {
+
+    background: white;
+    height: 300px;
+    width: 250px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    font-size: 13px;
+
+}
+
+.products p,
+.products h2,
+.products button {
+    margin-top: 20px;
+}
+
+#sp {
+    margin-left: 10px;
+}
+
+
+.products div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.btn-learn {
+    border-radius: 20px;
+    height: 3em;
+    width: 12em;
+    background-color: white;
+    border-color: black;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50%;
+    font-weight: 800;
+    font-size: 15px;
+    border-width: thin;
+
+
+}
+
+.section3 {
+    background: url(./assets/background.png);
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+
+}
+
+.section3 h1 {
+    font-size: 3em;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 3em;
+    font-size: 1.5em;
+    color: rgb(53, 50, 50);
+    font-weight: bold;
+}
+
+#company {
+    width: 20em;
+    padding-top: 2em;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 50px;
+
+}
+
+.foot h2 {
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+
+}
+
+.foot div ul li {
+    list-style: none;
+    line-height: 2.5;
+    color: gray;
+
+}
+
+hr {
+    margin-top: 6em;
+    color: #333;
+    /* old IE */
+    background-color: #333;
+}
