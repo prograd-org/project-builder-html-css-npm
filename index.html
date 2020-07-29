@@ -1,12 +1,734 @@
-<!DOCTYPE html>
-<html lang="en">
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@FARHANASHAIK2
+Learn Git and GitHub without any code!
+
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+FARHANASHAIK2 /
+project2
+
+0
+0
+
+0
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+
+Settings
+
+project2/project2.html
+@FARHANASHAIK2
+FARHANASHAIK2 initial commit
+Latest commit 7166a63 2 hours ago
+History
+1 contributor
+694 lines (647 sloc) 45.3 KB
+<!doctype html>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://static.npmjs.com/styles.3004fccd077d22c88385.css" />
+    <title data-react-helmet="true">npm | build amazing things</title>
+    <meta data-react-helmet="true" http-equiv="cleartype" content="on" />
+    <meta data-react-helmet="true" name="apple-mobile-web-app-capable" content="yes" />
+    <meta data-react-helmet="true" name="viewport"
+        content="width=device-width,minimum-scale=1.0,initial-scale=1,user-scalable=yes" />
+    <meta data-react-helmet="true" property="og:image"
+        content="https://static.npmjs.com/338e4905a2684ca96e08c7780fc68412.png" />
+    <meta data-react-helmet="true" name="msapplication-TileColor" content="#cb3837" />
+    <meta data-react-helmet="true" name="msapplication-TileImage"
+        content="https://static.npmjs.com/7a7ffabbd910fc60161bc04f2cee4160.png" />
+    <meta data-react-helmet="true" name="msapplication-config"
+        content="https://static.npmjs.com/668aac888e52ae13cac9cfd71fabd31f.xml" />
+    <meta data-react-helmet="true" name="theme-color" content="#cb3837" />
+    <link data-react-helmet="true" rel="apple-touch-icon" sizes="120x120"
+        href="https://static.npmjs.com/58a19602036db1daee0d7863c94673a4.png" />
+    <link data-react-helmet="true" rel="apple-touch-icon" sizes="144x144"
+        href="https://static.npmjs.com/7a7ffabbd910fc60161bc04f2cee4160.png" />
+    <link data-react-helmet="true" rel="apple-touch-icon" sizes="152x152"
+        href="https://static.npmjs.com/34110fd7686e2c90a487ca98e7336e99.png" />
+    <link data-react-helmet="true" rel="apple-touch-icon" sizes="180x180"
+        href="https://static.npmjs.com/3dc95981de4241b35cd55fe126ab6b2c.png" />
+    <link data-react-helmet="true" rel="icon" type="image/png"
+        href="https://static.npmjs.com/b0f1a8318363185cc2ea6a40ac23eeb2.png" sizes="32x32" />
+    <link data-react-helmet="true" rel="icon" type="image/png"
+        href="https://static.npmjs.com/1996fcfdf7ca81ea795f67f093d7f449.png" sizes="230x230" />
+    <link data-react-helmet="true" rel="icon" type="image/png"
+        href="https://static.npmjs.com/f1786e9b7cba9753ca7b9c40e8b98f67.png" sizes="96x96" />
+    <link data-react-helmet="true" rel="icon" type="image/png"
+        href="https://static.npmjs.com/5f6e93af5bf0f5dcdd1eecdac99f51ee.png" sizes="192x192" />
+    <link data-react-helmet="true" rel="icon" type="image/png"
+        href="https://static.npmjs.com/c426a1116301d1fd178c51522484127a.png" sizes="228x228" />
+    <link data-react-helmet="true" rel="icon" type="image/png"
+        href="https://static.npmjs.com/da3ab40fb0861d15c83854c29f5f2962.png" sizes="16x16" />
+
+    <script data-react-helmet="true" type="text/javascript" id="hs-script-loader" onload async="true" defer="true"
+        src="https://js.hs-scripts.com/5326678.js"></script>
+
 </head>
+
 <body>
-    
+    <div id="app">
+        <div class="_452c3ec4 d68c66a8">
+            <ul class="cf325dbd list ma0 pa0 tr z-999" aria-live="polite"></ul>
+            <div class="flex flex-column vh-100">
+                <header class="_755f5b0f bg-white z-2 bb b--black-20">
+                    <div class="a6ff2de1"><a class="_1c6d86d1"
+                            href="https://github.blog/2020-04-15-npm-has-joined-github/"><svg class="_93bbf0b4"
+                                viewBox="0 0 780 250">
+                                <path fill="white"
+                                    d="M240,250h100v-50h100V0H240V250z M340,50h50v100h-50V50z M480,0v200h100V50h50v150h50V50h50v150h50V0H480z M0,200h100V50h50v150h50V0H0V200z">
+                                </path>
+                            </svg><span><strong>npm</strong> is now a part of <strong>GitHub</strong></span><svg
+                                class="_5532dff2" width="33px" height="33px" viewBox="0 0 33 33" version="1.1"
+                                role="img" xmlns="http://www.w3.org/2000/svg">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g transform="translate(-136.000000, -331.000000)">
+                                        <path fill="white"
+                                            d="M152.608,331.455 C143.614,331.455 136.32,338.748 136.32,347.745 C136.32,354.942 140.987,361.047 147.46,363.201 C148.275,363.351 148.572,362.848 148.572,362.416 C148.572,362.029 148.558,361.005 148.55,359.646 C144.019,360.63 143.063,357.462 143.063,357.462 C142.322,355.58 141.254,355.079 141.254,355.079 C139.775,354.069 141.366,354.089 141.366,354.089 C143.001,354.204 143.861,355.768 143.861,355.768 C145.314,358.257 147.674,357.538 148.602,357.121 C148.75,356.069 149.171,355.351 149.636,354.944 C146.019,354.533 142.216,353.135 142.216,346.893 C142.216,345.115 142.851,343.66 143.893,342.522 C143.725,342.11 143.166,340.453 144.053,338.211 C144.053,338.211 145.42,337.773 148.532,339.881 C149.831,339.519 151.225,339.339 152.61,339.332 C153.994,339.339 155.387,339.519 156.688,339.881 C159.798,337.773 161.163,338.211 161.163,338.211 C162.052,340.453 161.493,342.11 161.326,342.522 C162.37,343.66 163,345.115 163,346.893 C163,353.151 159.191,354.528 155.563,354.931 C156.147,355.434 156.668,356.428 156.668,357.947 C156.668,360.125 156.648,361.882 156.648,362.416 C156.648,362.852 156.942,363.359 157.768,363.2 C164.236,361.041 168.899,354.94 168.899,347.745 C168.899,338.748 161.605,331.455 152.608,331.455">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></a></div>
+                    <div></div>
+                    <div class="e7070742 pv3-ns ph1-ns bg-white">
+                        <div class="ef7c6e62 center mw9 border-box ph4-ns ph3 flex"><span
+                                class="_0edb515f pr3 dn dib-ns link lh-title dim b--white-30">❤</span><span
+                                class="_99e3854f f6 fw4 link dn dib-ns tl dim mr4 nowrap">New Prog Mixtape</span>
+                            <nav class="_4a5f2a79 db w-100 w-auto-ns tr truncate">
+                                <ul class="list pl0">
+                                    <li class="dib npme-hidden"><a class="c6c55db4 link f6-ns f7 fw5 pr2 pl2"
+                                            id="nav-products-link" href="/products"><span
+                                                class="dim">Products</span></a>
+                                        <ul class="_3f98ab29 mt2 pa0 bg-white br2 shadow-1 tl">
+                                            <li><a id="nav-pro-link"
+                                                    class="b8f9b0bd link f6-ns f7 fw5 db ph3 pv2 nowrap dim"
+                                                    tabindex="0" href="/products/pro">Pro</a></li>
+                                            <li><a id="nav-teams-link"
+                                                    class="b8f9b0bd link f6-ns f7 fw5 db ph3 pv2 nowrap dim"
+                                                    tabindex="0" href="/products/teams">Teams</a></li>
+                                            <li><a id="nav-enterprise-link"
+                                                    class="b8f9b0bd link f6-ns f7 fw5 db ph3 pv2 nowrap dim"
+                                                    tabindex="0" href="/products/enterprise">Enterprise</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dib npme-hidden"><a class="c6c55db4 link f6-ns f7 fw5 dim pr2 pl2"
+                                            id="nav-pricing-link" href="/products">Pricing</a></li>
+                                    <li class="dib"><a class="c6c55db4 link f6-ns f7 fw5 dim pr2 pl2" id="nav-docs-link"
+                                            href="https://docs.npmjs.com">Documentation</a></li>
+                                    <li class="dib npme-hidden"><a class="c6c55db4 link f6-ns f7 fw5 dim pr2 pl2"
+                                            id="nav-resources-link" href="https://npm.community">Community</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="_4ea0e50d bt b--black-10">
+                        <div class="c5b9953b center mw9 flex flex-wrap ph4-ns border-box">
+                            <h1 class="_657f443d">npm</h1>
+                            <div class="af43375d mt3 db mr4-ns pb3 pb0-ns flex-auto 2-ns ph3 ph0-ns"><a href="/"><svg
+                                        viewBox="0 0 780 250">
+                                        <path fill="#231F20"
+                                            d="M240,250h100v-50h100V0H240V250z M340,50h50v100h-50V50z M480,0v200h100V50h50v150h50V50h50v150h50V0H480z M0,200h100V50h50v150h50V0H0V200z">
+                                        </path>
+                                    </svg></a></div>
+                            <div class="_581ebd89 relative flex-auto w-100 w-50-ns pv2-ns order-1-ns order-2">
+                                <form id="search" method="GET" action="/search"
+                                    class="_13c93d41 relative flex bg-transparent ph3 ph2 pv2 ph0-ns pv0-ns bt b--black-10 bn-ns">
+                                    <div class="e82b10fd relative flex-grow-1">
+                                        <div class="_2f299eeb nowrap flex"><span class="_705cdf4f db fl pl3 pr1"><svg
+                                                    width="15px" height="15px" xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 18 18" aria-hidden="true">
+                                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none"
+                                                        fill-rule="evenodd">
+                                                        <g id="Artboard-1" stroke="#777777" stroke-width="1.3">
+                                                            <g id="Group">
+                                                                <path
+                                                                    d="M13.4044,7.0274 C13.4044,10.5494 10.5494,13.4044 7.0274,13.4044 C3.5054,13.4044 0.6504,10.5494 0.6504,7.0274 C0.6504,3.5054 3.5054,0.6504 7.0274,0.6504 C10.5494,0.6504 13.4044,3.5054 13.4044,7.0274 Z"
+                                                                    id="Stroke-3"></path>
+                                                                <path d="M11.4913,11.4913 L17.8683,17.8683"
+                                                                    id="Stroke-7"></path>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg></span><input type="search" name="q" hotkeys="[object Object]"
+                                                placeholder="Search packages" autoComplete="off"
+                                                aria-label="Search packages" inputref="[object Object]"
+                                                class="_390acbc5 f5 fw3 black relative" value="" element="input" />
+                                        </div>
+                                    </div><button type="submit"
+                                        class="_0da775bb bn pv2 ph4 f6 white pointer">Search</button><input
+                                        type="hidden" name="csrftoken"
+                                        value="1NPOzUivwfHyWl1sqMo0vYd4b99A8cO27x21wTQAZrr" />
+                                </form>
+                            </div>
+                            <div
+                                class="_6f31c82b ml3 mt2 mt0-ns pv2-ns flex-auto tr nowrap relative pointer fw6 order-1 order-2-ns">
+                                <div class="_1066d9e7 flex items-center self-center pl3"><a href="/signup"
+                                        class="_9752c8b3 pa2 lh-copy br2 f6 no-underline fw5 black dim ph3 mr3">Sign
+                                        Up</a><a class="_352269a0 pa1 lh-copy br2 f6 no-underline fw5 black dim"
+                                        href="/login">Sign In</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <main>
+                    <div id="flatpage" class="flatpages">
+                        <article class="bg-white dark-gray npm-content">
+                            <section class="npm-bg npm-bg-hero">
+                                <div class="center mw7 pv5 ph3 tc white">
+                                    <h1 class="f-subheadline-m f-subheadline-l f1 lh-title">
+                                        Build amazing things
+                                    </h1>
+
+                                    <div class="center mw6 lh-copy">
+                                        <div>
+                                            We're npm, Inc., the company behind Node package manager, the npm
+                                            Registry, and npm CLI. We offer those to the community for free, but
+                                            our day job is building and selling useful tools for developers like you.
+                                        </div>
+
+                                        <h2 class="f2-l f3 lh-title">
+                                            Take your JavaScript development up a notch
+                                        </h2>
+
+                                        <div>
+                                            Get started today for free, or step up to npm Pro to enjoy a premium
+                                            JavaScript development experience, with features like private packages.
+                                        </div>
+
+                                        <div class="mt5 flex flex-wrap">
+                                            <div class="w-100 w-50-ns pr3-ns pb3">
+                                                <a href="/signup"
+                                                    class="db mw5-ns center pv3 ph4 npm-btn-red npm-shadow-big b no-underline white npm-title">
+                                                    Sign up for free
+                                                </a>
+                                            </div>
+
+                                            <div class="w-100 w-50-ns pl3-ns pb3">
+                                                <a href="/products/pro"
+                                                    class="db mw5-ns center pv3 ph4 npm-btn-pink npm-shadow-big b no-underline white npm-title">
+                                                    Learn about Pro
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section class="pv5 ph3 bg-white">
+                                <div class="center mw6 mb5 tc lh-copy">
+                                    <img src="https://static.npmjs.com/attachments/ck3uweazy72ye8874y9kkxnx1-gak.png"
+                                        srcset="https://static.npmjs.com/attachments/ck3uweazy72ye8874y9kkxnx1-gak.png,
+                https://static.npmjs.com/attachments/ck3uwed1cmso79y74pjugy10f-gak-2x.png 2x,
+                https://static.npmjs.com/attachments/ck3uweeyt72yk887420va22p9-gak-3x.png 3x" class="db center mb4">
+
+                                    <h2 class="f2-l f3 lh-title">
+                                        Bring the best of open source to you, your team, and your company
+                                    </h2>
+
+                                    <div>
+                                        Relied upon by more than 11 million developers worldwide, npm is committed to
+                                        making JavaScript development elegant, productive, and safe. The free npm
+                                        Registry has become the center of JavaScript code sharing, and with more than
+                                        one million packages, the largest software registry in the world. Our other
+                                        tools and services take the Registry, and the work you do around it, to the
+                                        next level.
+                                    </div>
+                                </div>
+
+                                <div class="flex flex-wrap mw8 center tc tl-ns lh-copy">
+                                    <div class="w-25-l w-50-ns w-100 pa3 pb5 pb3-l">
+                                        <div class="mb3 tc tl-ns">
+                                            <img src="https://static.npmjs.com/attachments/ck3uwe3pf72xu8874etabgd42-free.png"
+                                                srcset="https://static.npmjs.com/attachments/ck3uwe3pf72xu8874etabgd42-free.png,
+                    https://static.npmjs.com/attachments/ck3uwe5b372y08874c6bk5mj9-free-2x.png 2x,
+                    https://static.npmjs.com/attachments/ck3uwe80w72y78874sx4ia48t-free-3x.png 3x">
+                                        </div>
+
+                                        <h3 class="f5">npm Free</h3>
+
+                                        <div class="mb4 f6">
+                                            Become a contributing member of the open source JavaScript community. Create
+                                            public packages, publish updates, audit your dependencies, and more.
+                                        </div>
+
+                                        <a href="/products"
+                                            class="dib pa2 ph4 ba br-pill ttu no-underline tracked b npm-title">Learn
+                                            More</a>
+                                    </div>
+
+                                    <div class="w-25-l w-50-ns w-100 pa3 pb5 pb3-l">
+                                        <div class="mb3 tc tl-ns">
+                                            <img src="https://static.npmjs.com/attachments/ck3uwfqaa730f88742ka723na-pro.png"
+                                                srcset="https://static.npmjs.com/attachments/ck3uwfqaa730f88742ka723na-pro.png,
+                    https://static.npmjs.com/attachments/ck3uwfqa6msygdr741r0h9iei-pro-2x.png 2x,
+                    https://static.npmjs.com/attachments/ck3uwfqz5730g8874ikj851d7-pro-3x.png 3x">
+                                            <img src="https://static.npmjs.com/attachments/ck3uwfyy3mr8vc974k2kjnoyt-teams.png"
+                                                srcset="https://static.npmjs.com/attachments/ck3uwfyy3mr8vc974k2kjnoyt-teams.png,
+                    https://static.npmjs.com/attachments/ck3uwfz6tmswa9y746a1qv7nj-teams-2x.png 2x,
+                    https://static.npmjs.com/attachments/ck3uwfzl2mr97c9747w7ikfwg-teams-3x.png 3x" class="ml2">
+                                        </div>
+
+                                        <h3 class="f5">npm Pro & Teams</h3>
+
+                                        <div class="mb4 f6">
+                                            For next-level JavaScript developers who want more capabilities. Pro and
+                                            Teams
+                                            add the ability to build private packages for you, your team, or for
+                                            customers.
+                                        </div>
+
+                                        <a href="/products"
+                                            class="dib pa2 ph4 ba br-pill ttu no-underline tracked b npm-title">Learn
+                                            More</a>
+                                    </div>
+
+                                    <div class="w-25-l w-50-ns w-100 pa3 pb5 pb3-ns">
+                                        <div class="mb3 tc tl-ns">
+                                            <img src="https://static.npmjs.com/attachments/ck3uwdz2272xb8874zxys9s9r-enterprise.png"
+                                                srcset="https://static.npmjs.com/attachments/ck3uwdz2272xb8874zxys9s9r-enterprise.png,
+                    https://static.npmjs.com/attachments/ck3uwe03k72xh8874e8iowugn-enterprise-2x.png 2x,
+                    https://static.npmjs.com/attachments/ck3uwe26672xo8874y00hjl9u-enterprise-3x.png 3x">
+                                        </div>
+
+                                        <h3 class="f5">npm Enterprise</h3>
+
+                                        <div class="mb4 f6">
+                                            For very large teams and business-critical projects, npm Enterprise delivers
+                                            features that organizations with hundreds of developers need, like SSO and
+                                            enhanced security.
+                                        </div>
+
+                                        <a href="/products/enterprise"
+                                            class="dib pa2 ph4 ba br-pill ttu no-underline tracked b npm-title">Learn
+                                            More</a>
+                                    </div>
+
+                                    <div class="w-25-l w-50-ns w-100 pa3">
+                                        <div class="mb3 tc tl-ns">
+                                            <img src="https://static.npmjs.com/attachments/ck3uwfu50730r8874b7ah6by4-secure-js.png"
+                                                srcset="https://static.npmjs.com/attachments/ck3uwfu50730r8874b7ah6by4-secure-js.png,
+                    https://static.npmjs.com/attachments/ck3uwfvfw730s8874v04dq2pc-secure-js-2x.png 2x,
+                    https://static.npmjs.com/attachments/ck3uwfwwv730w8874zomrwhgd-secure-js-3x.png 3x">
+                                        </div>
+
+                                        <h3 class="f5">npm PkgSafe</h3>
+
+                                        <div class="mb4 f6">
+                                            Our security team's unique insights into JavaScript vulnerabilities and
+                                            threats
+                                            are delivered as free and premium features, as well as services for
+                                            resellers
+                                            and others.
+                                        </div>
+
+                                        <a href="https://go.npmjs.com/npm-pkgsafe"
+                                            class="dib pa2 ph4 ba br-pill ttu no-underline tracked b npm-title">Learn
+                                            More</a>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section class="npm-bg npm-bg-love-oss pv5 ph3 tc white">
+                                <div class="center mw6 lh-copy">
+                                    <h2 class="mt0 f1-l f3 lh-title">
+                                        We ❤ open source
+                                    </h2>
+
+                                    <dev>
+                                        At npm, Inc., we're proud to dedicate teams of full-time employees to operating
+                                        the npm Registry, enhancing the CLI, improving JavaScript security, and other
+                                        projects that support and nurture a vibrant open source community.
+                                    </dev>
+                                </div>
+                            </section>
+
+                            <section class="pt5 pb4 ph3 tc bg-white">
+                                <div class="center mw8 lh-copy">
+                                    <h2 class="mw6 mt0 mb3 mb5-l center f2-l f3 lh-title">
+                                        Gratefully serving everyone from solo devs to the Fortune 500
+                                    </h2>
+
+                                    <div class="center ma4 mw6">
+                                        <img src="https://static.npmjs.com/attachments/ck49cu3ceh1sust74dkzkfn69-grey-logowall.png"
+                                            class="w-100">
+                                    </div>
+                                </div>
+                            </section>
+                        </article>
+
+                        <link href="https://fonts.googleapis.com/css?family=Arimo|Poppins:400,600,700&display=swap"
+                            rel="stylesheet">
+
+                        <style>
+                            .npm-bg {
+                                background-position: center center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                            }
+
+                            .npm-bg-hero {
+                                background-image: url('https://static.npmjs.com/attachments/ck3uwvv67mydydr74ea00ip4j-bg-stripes.png');
+                            }
+
+                            .npm-bg-love-oss {
+                                background-image: url('https://static.npmjs.com/attachments/ck3uwg3a8731988744oecrjxu-weloveopensource-bg-800-2x.png');
+                            }
+
+                            .npm-shadow-big {
+                                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+                            }
+
+                            .npm-btn-red {
+                                background: #c12127;
+                                border-bottom: solid 5px #fa8717;
+                            }
+
+                            .npm-btn-pink {
+                                background: #e81aa8;
+                                border-bottom: solid 5px #b30ad2;
+                            }
+
+                            .npm-content {
+                                font-family: 'Arimo', sans-serif;
+                            }
+
+                            .npm-content h1,
+                            .npm-content h2,
+                            .npm-content h3,
+                            .npm-content h4,
+                            .npm-content h5,
+                            .npm-content h6 {
+                                font-family: Poppins, sans-serif;
+                                font-weight: 600;
+                            }
+
+                            .npm-title {
+                                font-family: Poppins, sans-serif;
+                            }
+                        </style>
+
+                        <script type="text/javascript">
+
+
+
+                        </script>
+                    </div>
+                </main>
+                <footer class="cd2827bb bt b--black-10 mt4">
+                    <div class="center mw9 pa3 flex flex-column flex-wrap-m flex-row-ns">
+                        <div class="flex-auto pa4-ns pa3 w-100 w-10-l">
+                            <div class="_802b5507 pt3"><svg viewBox="0 0 27.23 27.23">
+                                    <rect fill="#333333" width="27.23" height="27.23" rx="2"></rect>
+                                    <polygon fill="#fff"
+                                        points="5.8 21.75 13.66 21.75 13.67 9.98 17.59 9.98 17.58 21.76 21.51 21.76 21.52 6.06 5.82 6.04 5.8 21.75">
+                                    </polygon>
+                                </svg></div>
+                        </div>
+                        <div class="flex-auto pa4-ns pa3 w-30-ns w-50-m">
+                            <h3 class="_1b8c0a9f">Help</h3>
+                            <ul class="list pl0">
+                                <li class="pv1"><a class="link" href="https://docs.npmjs.com">Documentation</a></li>
+                                <li class="pv1"><a class="link" href="https://npm.community">Community</a></li>
+                                <li class="pv1"><a class="link" href="/resources/">Case Studies</a></li>
+                                <li class="pv1"><a class="link" href="https://www.npmjs.com/advisories">Advisories</a>
+                                </li>
+                                <li class="pv1 npme-hidden"><a class="link" href="http://status.npmjs.org/">Status</a>
+                                </li>
+                                <li class="pv1"><a class="link" href="/support">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="flex-auto pa4-ns pa3 w-30-ns w-50-m">
+                            <h3 class="_1b8c0a9f">About</h3>
+                            <ul class="list pl0">
+                                <li class="pv1"><a class="link" href="/about">Company</a></li>
+                                <li class="pv1"><a class="link" href="https://blog.npmjs.org/">Blog</a></li>
+                                <li class="pv1 npme-hidden"><a class="link" href="/jobs">Careers</a></li>
+                                <li class="pv1"><a class="link"
+                                        href="https://www.youtube.com/playlist?list=PLQso55XhxkgDSLC0GzjGFeUkJ_T6YzVXK"
+                                        target="_blank" rel="noopener noreferrer nofollow">Webinars</a></li>
+                                <li class="pv1"><a class="link" href="/press">Press</a></li>
+                                <li class="pv1"><a class="link" href="/npm-weekly">Newsletter</a></li>
+                            </ul>
+                        </div>
+                        <div class="flex-auto pa4-ns pa3 w-30-ns w-50-m">
+                            <h3 class="_1b8c0a9f">Terms &amp; Policies</h3>
+                            <ul class="list pl0">
+                                <li class="pv1"><a class="link" href="/policies/">Policies</a></li>
+                                <li class="pv1"><a class="link" href="/policies/terms">Terms of Use</a></li>
+                                <li class="pv1 npme-hidden"><a class="link" href="/policies/conduct">Code of Conduct</a>
+                                </li>
+                                <li class="pv1 npme-hidden"><a class="link" href="/policies/privacy">Privacy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <div class="_8a62ca63 fixed top-0 left-0 z-999"
+                style="opacity:0;transform:scaleX(1);-webkit-transform:scaleX(1);-moz-transform:scaleX(1)"></div>
+        </div>
+    </div>
+    <script integrity="sha512-uwWKMQ0Fd+I8azH4k1HTqc01Uf4wa0gGO+LBfwRv9x+Tc5PBq2l7Q7t1wFOD7+MQ8+0AuVTiJfBrG07nu7au+w==">
+        window.__context__ = {
+            "context": {
+                "isNpme": false,
+                "npmExpansions": ["Now Paging Maciej", "Noiseless Party Machine",
+                    "Nostradamus Predicting Maelstroms", "Nourishing Plushie Monster",
+                    "Novelty Palliates Malaise", "Nebulous Puffy Marshmallows", "Normally Palatable Mango",
+                    "Novel Personal Mantras", "Norwegian Polka Music", "New Prog Mixtape"
+                ],
+                "notifications": [],
+                "csrftoken": "1NPOzUivwfHyWl1sqMo0vYd4b99A8cO27x21wTQAZrr",
+                "user": null,
+                "documentContext": {
+                    "flatpage.data": "flatpage"
+                },
+                "flatpage": {
+                    "title": "npm | build amazing things",
+                    "ref": "flatpage",
+                    "data": null
+                },
+                "undefined": true
+            },
+            "chunks": {
+                "commons": ["commons.e25706d4b6d6ee149f15.js", "commons.e25706d4b6d6ee149f15.js.map"],
+                "styles": ["styles.3004fccd077d22c88385.css", "minicssextractbug.22d261dff72c1e655c67.js",
+                    "styles.3004fccd077d22c88385.css.map", "minicssextractbug.22d261dff72c1e655c67.js.map"
+                ],
+                "advisories/detail": ["advisories/detail.ba63eed50ff078cf8592.js",
+                    "advisories/detail.ba63eed50ff078cf8592.js.map"
+                ],
+                "advisories/list": ["advisories/list.7b4c2ce9e97b1ad9ccd9.js",
+                    "advisories/list.7b4c2ce9e97b1ad9ccd9.js.map"
+                ],
+                "advisories/report": ["advisories/report.28798f728c742f53bbca.js",
+                    "advisories/report.28798f728c742f53bbca.js.map"
+                ],
+                "advisories/versions": ["advisories/versions.21a337636d7b86be6bbc.js",
+                    "advisories/versions.21a337636d7b86be6bbc.js.map"
+                ],
+                "auth/cli": ["auth/cli.d732ef95c864bfbf5d09.js", "auth/cli.d732ef95c864bfbf5d09.js.map"],
+                "auth/common-passwords": ["auth/common-passwords.e2251ac008a08b61d832.js",
+                    "auth/common-passwords.e2251ac008a08b61d832.js.map"
+                ],
+                "auth/escalate": ["auth/escalate.820fc271ffce4e71e549.js",
+                    "auth/escalate.820fc271ffce4e71e549.js.map"
+                ],
+                "auth/forgot": ["auth/forgot.8014557c8b4e4fe12204.js", "auth/forgot.8014557c8b4e4fe12204.js.map"],
+                "auth/forgot-sent": ["auth/forgot-sent.d96720a83e9c014a72cf.js",
+                    "auth/forgot-sent.d96720a83e9c014a72cf.js.map"
+                ],
+                "auth/forgot-sent-anonymized": ["auth/forgot-sent-anonymized.096c2568cd795894eccf.js",
+                    "auth/forgot-sent-anonymized.096c2568cd795894eccf.js.map"
+                ],
+                "auth/invite-signup": ["auth/invite-signup.81c47d26ed129e160460.js",
+                    "auth/invite-signup.81c47d26ed129e160460.js.map"
+                ],
+                "auth/login": ["auth/login.34bbbe0b34e7a7ca52f7.js", "auth/login.34bbbe0b34e7a7ca52f7.js.map"],
+                "auth/otp": ["auth/otp.51c07fcba23d3e180b89.js", "auth/otp.51c07fcba23d3e180b89.js.map"],
+                "auth/reset-password": ["auth/reset-password.7b8c2174a54d7ce504cc.js",
+                    "auth/reset-password.7b8c2174a54d7ce504cc.js.map"
+                ],
+                "auth/signup": ["auth/signup.29b3481c5a2b59ad26a2.js", "auth/signup.29b3481c5a2b59ad26a2.js.map"],
+                "auth/sso-signup": ["auth/sso-signup.ef0b65c16800263a1ccd.js",
+                    "auth/sso-signup.ef0b65c16800263a1ccd.js.map"
+                ],
+                "billing/detail": ["billing/detail.b5a0eba5ddbfcfe9eedb.js",
+                    "billing/detail.b5a0eba5ddbfcfe9eedb.js.map"
+                ],
+                "billing/downgrade": ["billing/downgrade.8edb63109c70a0c04b38.js",
+                    "billing/downgrade.8edb63109c70a0c04b38.js.map"
+                ],
+                "billing/upgrade": ["billing/upgrade.a136a28b8b0a7779efba.js",
+                    "billing/upgrade.a136a28b8b0a7779efba.js.map"
+                ],
+                "contact/contact": ["contact/contact.2a8167e680d89af14b68.js",
+                    "contact/contact.2a8167e680d89af14b68.js.map"
+                ],
+                "debug/badstatus": ["debug/badstatus.c819ce3e67efde48a5b7.js",
+                    "debug/badstatus.c819ce3e67efde48a5b7.js.map"
+                ],
+                "debug/detail": ["debug/detail.39b63b3d59896a63859b.js",
+                    "debug/detail.39b63b3d59896a63859b.js.map"
+                ],
+                "debug/failcomponent": ["debug/failcomponent.6b9f5380bfee7bb3fa16.js",
+                    "debug/failcomponent.6b9f5380bfee7bb3fa16.js.map"
+                ],
+                "egg/egg": ["egg/egg.4dc103243927562fdb01.js", "egg/egg.4dc103243927562fdb01.js.map"],
+                "enterprise/complete": ["enterprise/complete.eb1c2241128c46e53975.js",
+                    "enterprise/complete.eb1c2241128c46e53975.js.map"
+                ],
+                "enterprise/license-paid": ["enterprise/license-paid.866822734a81230bf09d.js",
+                    "enterprise/license-paid.866822734a81230bf09d.js.map"
+                ],
+                "enterprise/license-purchase": ["enterprise/license-purchase.b4f05491bcee7f8ea8de.js",
+                    "enterprise/license-purchase.b4f05491bcee7f8ea8de.js.map"
+                ],
+                "enterprise/on-site-buy-now": ["enterprise/on-site-buy-now.cd1c192b819cc8a6c54b.js",
+                    "enterprise/on-site-buy-now.cd1c192b819cc8a6c54b.js.map"
+                ],
+                "enterprise/on-site-contact-confirmation": [
+                    "enterprise/on-site-contact-confirmation.28ddf1f66e02f40eeaf4.js",
+                    "enterprise/on-site-contact-confirmation.28ddf1f66e02f40eeaf4.js.map"
+                ],
+                "enterprise/on-site-trial": ["enterprise/on-site-trial.571a02b827c4e9b72aed.js",
+                    "enterprise/on-site-trial.571a02b827c4e9b72aed.js.map"
+                ],
+                "enterprise/orgs-terms": ["enterprise/orgs-terms.a306d97482993b4349a7.js",
+                    "enterprise/orgs-terms.a306d97482993b4349a7.js.map"
+                ],
+                "enterprise/signup-confirmation": ["enterprise/signup-confirmation.14355c7a421ad2cfcdec.js",
+                    "enterprise/signup-confirmation.14355c7a421ad2cfcdec.js.map"
+                ],
+                "errors/not-found": ["errors/not-found.5075888976f51a1e741c.js",
+                    "errors/not-found.5075888976f51a1e741c.js.map"
+                ],
+                "errors/server": ["errors/server.13a3e1120bb72c7037c4.js",
+                    "errors/server.13a3e1120bb72c7037c4.js.map"
+                ],
+                "errors/template": ["errors/template.a5ca9b4805e10d933d84.js",
+                    "errors/template.a5ca9b4805e10d933d84.js.map"
+                ],
+                "flatpage/flatpage": ["flatpage/flatpage.769187f54f6545593bb0.js",
+                    "flatpage/flatpage.769187f54f6545593bb0.js.map"
+                ],
+                "homepage/homepage": ["homepage/homepage.4357a31ea3e3f988ef35.js",
+                    "homepage/homepage.4357a31ea3e3f988ef35.js.map"
+                ],
+                "homepage/homepage-logged-in": ["homepage/homepage-logged-in.643fe1895beb83bcb48d.js",
+                    "homepage/homepage-logged-in.643fe1895beb83bcb48d.js.map"
+                ],
+                "npme/invite": ["npme/invite.70fac0699edbc54c9fce.js", "npme/invite.70fac0699edbc54c9fce.js.map"],
+                "npme/invites": ["npme/invites.21e046b765121e854d6e.js",
+                    "npme/invites.21e046b765121e854d6e.js.map"
+                ],
+                "npme/login": ["npme/login.b5da45ec08887dd8c0d1.js", "npme/login.b5da45ec08887dd8c0d1.js.map"],
+                "npme/overrides/components/tutorials/creating-org": [
+                    "npme/overrides/components/tutorials/creating-org.6f0274dc7ae5074ff586.js",
+                    "npme/overrides/components/tutorials/creating-org.6f0274dc7ae5074ff586.js.map"
+                ],
+                "npme/overrides/components/tutorials/default-registry": [
+                    "npme/overrides/components/tutorials/default-registry.5b909182556669b2d565.js",
+                    "npme/overrides/components/tutorials/default-registry.5b909182556669b2d565.js.map"
+                ],
+                "npme/overrides/components/tutorials/installing-package": [
+                    "npme/overrides/components/tutorials/installing-package.22d69673af4c149516f0.js",
+                    "npme/overrides/components/tutorials/installing-package.22d69673af4c149516f0.js.map"
+                ],
+                "npme/overrides/components/tutorials/publishing-package": [
+                    "npme/overrides/components/tutorials/publishing-package.45ab124482efe3b4998b.js",
+                    "npme/overrides/components/tutorials/publishing-package.45ab124482efe3b4998b.js.map"
+                ],
+                "npme/overrides/components/tutorials/tabs": [
+                    "npme/overrides/components/tutorials/tabs.01c4cfd0442729cb7cde.js",
+                    "npme/overrides/components/tutorials/tabs.01c4cfd0442729cb7cde.js.map"
+                ],
+                "npme/overrides/homepage": ["npme/overrides/homepage.c19442129d3f40102a50.js",
+                    "npme/overrides/homepage.c19442129d3f40102a50.js.map"
+                ],
+                "npme/overrides/orgs/create": ["npme/overrides/orgs/create.d2edeec09f74dfc8177f.js",
+                    "npme/overrides/orgs/create.d2edeec09f74dfc8177f.js.map"
+                ],
+                "npme/settings": ["npme/settings.e7ef052c7102ea4098f4.js",
+                    "npme/settings.e7ef052c7102ea4098f4.js.map"
+                ],
+                "npme/setup": ["npme/setup.02e6446282ffa694b1c6.js", "npme/setup.02e6446282ffa694b1c6.js.map"],
+                "npme/sso-config": ["npme/sso-config.361fd3e0b7564591a5a2.js",
+                    "npme/sso-config.361fd3e0b7564591a5a2.js.map"
+                ],
+                "npme/users": ["npme/users.77f49469d9f3dffacd98.js", "npme/users.77f49469d9f3dffacd98.js.map"],
+                "orgs/create": ["orgs/create.636ddfce4b446d610cc3.js", "orgs/create.636ddfce4b446d610cc3.js.map"],
+                "orgs/detail": ["orgs/detail.1bf23bd47f645decdf69.js", "orgs/detail.1bf23bd47f645decdf69.js.map"],
+                "orgs/invite": ["orgs/invite.8873f03aaac189052d15.js", "orgs/invite.8873f03aaac189052d15.js.map"],
+                "orgs/upgrade": ["orgs/upgrade.3382e1f84e3b858349b5.js",
+                    "orgs/upgrade.3382e1f84e3b858349b5.js.map"
+                ],
+                "package-list/dependents-list": ["package-list/dependents-list.56884f1859b3f898530d.js",
+                    "package-list/dependents-list.56884f1859b3f898530d.js.map"
+                ],
+                "package-list/most-depended": ["package-list/most-depended.8249e19c94c80aff1290.js",
+                    "package-list/most-depended.8249e19c94c80aff1290.js.map"
+                ],
+                "package-list/recently-updated": ["package-list/recently-updated.427dbcc5e2581463ca4e.js",
+                    "package-list/recently-updated.427dbcc5e2581463ca4e.js.map"
+                ],
+                "package/package": ["package/package.25424e0275c8be0e3d8e.js",
+                    "package/package.25424e0275c8be0e3d8e.js.map"
+                ],
+                "profile/profile": ["profile/profile.4960a6fb9543592b6c00.js",
+                    "profile/profile.4960a6fb9543592b6c00.js.map"
+                ],
+                "search/search": ["search/search.90ad2c704f1f3679d674.js",
+                    "search/search.90ad2c704f1f3679d674.js.map"
+                ],
+                "settings/change-password": ["settings/change-password.5934ab2080780603794f.js",
+                    "settings/change-password.5934ab2080780603794f.js.map"
+                ],
+                "settings/email": ["settings/email.7ec371818cabf773c065.js",
+                    "settings/email.7ec371818cabf773c065.js.map"
+                ],
+                "settings/memberships": ["settings/memberships.8f5951b0ee7b443f0608.js",
+                    "settings/memberships.8f5951b0ee7b443f0608.js.map"
+                ],
+                "settings/packages": ["settings/packages.744da9bc11343d96056a.js",
+                    "settings/packages.744da9bc11343d96056a.js.map"
+                ],
+                "settings/profile": ["settings/profile.db24764a4fa4ad088e9c.js",
+                    "settings/profile.db24764a4fa4ad088e9c.js.map"
+                ],
+                "teams/create": ["teams/create.8dffd61cb7e908537649.js",
+                    "teams/create.8dffd61cb7e908537649.js.map"
+                ],
+                "teams/detail": ["teams/detail.8b7b9b33a6361ca09bbd.js",
+                    "teams/detail.8b7b9b33a6361ca09bbd.js.map"
+                ],
+                "teams/list": ["teams/list.da844984cc07b0667637.js", "teams/list.da844984cc07b0667637.js.map"],
+                "teams/packages": ["teams/packages.2c257891df53dc7b3a14.js",
+                    "teams/packages.2c257891df53dc7b3a14.js.map"
+                ],
+                "teams/users": ["teams/users.b79c6edbe9bbd30bc542.js", "teams/users.b79c6edbe9bbd30bc542.js.map"],
+                "tfa/enable": ["tfa/enable.ef6de2d7bd69ff01a934.js", "tfa/enable.ef6de2d7bd69ff01a934.js.map"],
+                "tfa/showTFAQRCode": ["tfa/showTFAQRCode.6b7ab803ff066ed650bd.js",
+                    "tfa/showTFAQRCode.6b7ab803ff066ed650bd.js.map"
+                ],
+                "tfa/showTFASuccess": ["tfa/showTFASuccess.de26f6efd0c45313cd45.js",
+                    "tfa/showTFASuccess.de26f6efd0c45313cd45.js.map"
+                ],
+                "tfa/tfa-mode-selection": ["tfa/tfa-mode-selection.899d45c45e3b5952e638.js",
+                    "tfa/tfa-mode-selection.899d45c45e3b5952e638.js.map"
+                ],
+                "tfa/tfa-password-entry": ["tfa/tfa-password-entry.5495ac904bd00b051520.js",
+                    "tfa/tfa-password-entry.5495ac904bd00b051520.js.map"
+                ],
+                "tokens/create": ["tokens/create.1eae78de705cc8947d8e.js",
+                    "tokens/create.1eae78de705cc8947d8e.js.map"
+                ],
+                "tokens/list": ["tokens/list.8a3b1fb973482ec12cfe.js", "tokens/list.8a3b1fb973482ec12cfe.js.map"],
+                "vouchers/view": ["vouchers/view.fbcef5f0e432017f7d61.js",
+                    "vouchers/view.fbcef5f0e432017f7d61.js.map"
+                ]
+            },
+            "hash": "e25706d4b6d6ee149f15",
+            "name": "flatpage/flatpage",
+            "containerId": "app",
+            "headerName": "x-spiferack",
+            "publicPath": "https://static.npmjs.com/"
+        }
+    </script>
+    <script crossorigin="anonymous" src="https://static.npmjs.com/commons.e25706d4b6d6ee149f15.js"></script>
+    <script crossorigin="anonymous" src="https://static.npmjs.com/minicssextractbug.22d261dff72c1e655c67.js"></script>
+    <script crossorigin="anonymous" src="https://static.npmjs.com/flatpage/flatpage.769187f54f6545593bb0.js"></script>
 </body>
+
 </html>
