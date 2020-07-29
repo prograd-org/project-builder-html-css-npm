@@ -4,127 +4,171 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>npm clone</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <header>
-        <div>
-            <div>
-                <img class="blackHeart" src="assets/black-heart.png" alt="black heart" />
-                <span>next() Packaged Middleware </span>
+    <div class="top">
+        <p><span><img class="logo" src="assets/logo.png" alt="logo" /></span> is now a part of GitHub</p>
+    </div>
+    <div class="back">
+        <header>
+            <div class="sec">
+                <div>
+                    <img class="blackHeart" src="assets/black-heart.png" alt="black heart" />
+                    <span>next() Packaged Middleware </span>
+                </div>
+                <nav>
+                    <ul>
+
+                        <li><a href="#" class="nav-link"> npm Enterprise </a></li>
+                        <li><a href="#" class="nav-link"> Products </a></li>
+                        <li><a href="#" class="nav-link"> Solutions </a></li>
+                        <li><a href="#" class="nav-link"> Resources </a></li>
+                        <li><a href="#" class="nav-link"> Docs </a></li>
+                        <li><a href="#" class="nav-link"> Support </a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav>
-                <ul>
+            <div>
+                <!-- add logo, search bar and buttons (or links and style them as buttons later) -->
+                <img class="logo" src="assets/logo.png" alt="logo" />
+                <input id="search" type="text" placeholder=" Search.." />
+                <button id="search-box">Search</button>
+                <br>
+                <button id="sign-up">Sign Up</button>
+                <button>Login</button>
+            </div>
+        </header>
+        <section class="home">
+            <h1 class="build">Build amazing <br>things</h1>
+            <span></span>
+            <p class="text1">We're npm,Inc, the company behind Node Package Manager; the npm<br> Registry, and npm
+                CLI.We
+                offer those to the
+                community for free, but our <br> day job is building and selling useful tools foe developers.</p>
 
-                    <li><a href="#" class="nav-link"> npm Enterprise </a></li>
-                    <li><a href="#" class="nav-link"> Products </a></li>
-                    <li><a href="#" class="nav-link"> Solutions </a></li>
-                    <li><a href="#" class="nav-link"> Resources </a></li>
-                    <li><a href="#" class="nav-link"> Docs </a></li>
-                    <li><a href="#" class="nav-link"> Support </a></li>
-                </ul>
-            </nav>
-        </div>
+            <span></span>
 
+            <h2>Take your JavaScript <br>development up a notch </h2>
+            <p>Get started today for free, or step up to npm Pro to enjoy a premium <br> JavaScript development
+                experience,
+                with
+                features like private packages.</p>
+            <div class="button1">
+                <button id="bt1">Sign Up for free</button>
+                <button id="bt2">Learn about pro</button>
+            </div>
+        </section>
+
+
+    </div>
+
+
+    <div class="second">
+        <section>
+            <img src="assets/bubble.png" alt="bubble_image">
+            <h2>Bring the best of open <br> source to you, your team,<br> your company</h2>
+            <p>Relied upon by more than 11 million developers worldwide, npm is<br> committed to making JavaScript
+                development
+                elegant, productive, and <br>safe. The free npm Registry has become the center of JavaScript code<br>
+                sharing, and
+                with more than one million packages, the largest software <br>registry in the world. Our other tools and
+                services take the Registry, and <br>the work you do around it, to the next level.</p>
+        </section>
+    </div>
+    <section class="products">
         <div>
-            <!-- add logo, search bar and buttons (or links and style them as buttons later) -->
-            <img class="logo" src="assets/logo.png" alt="logo" />
-            <input type="text" placeholder="Search.." />
-            <button>Search</button>
-            <br>
-            <button>Sign Up</button>
-            <button>Login</button>
+            <article>
+                <img src="assets/img (1).png" alt="image1">
+                <h2>npm Free</h2>
+                <p>Become a contributing member of the open source JavaScript community. Create public packages, publish
+                    updates, audit your dependencies, and more.</p>
+                <button class="btn-learn">Learn more</button>
+            </article>
+
+            <article>
+                <img src="assets/img (2).png" alt="image2"><span id="sp"></span><img src="assets/img (5).png"
+                    alt="image3">
+                <h2>npm Pro & Teams</h2>
+                <p>For next-level JavaScript developers who want more capabilities. Pro and Teams add the ability to
+                    build
+                    private packages for you, your team, or for customers.</p>
+                <button class="btn-learn">Learn more</button>
+            </article>
+
+            <article>
+                <img src="assets/img (3).png" alt="image3">
+                <h2>npm Enterprise</h2>
+                <p>For very large teams and business-critical projects, npm Enterprise delivers features that
+                    organizations
+                    with
+                    hundreds of developers need, like SSO and enhanced security.</p>
+                <button class="btn-learn">Learn more</button>
+            </article>
+
+            <article>
+                <img src="assets/img (4).png" alt="image4">
+                <h2>npm PkgSafe</h2>
+                <p>Our security team's unique insights into JavaScript vulnerabilities and threats are delivered as free
+                    and
+                    premium features, as well as services for resellers and others.</p>
+                <button class="btn-learn">Learn more</button>
+            </article>
+
         </div>
-    </header>
-    <section class="home">
-
-
-        <h1 id="build">Build amazing <br>things</h1>
-        <span></span>
-        <p id="buildp">we re npm,Inc, the company behind Node Package Manager; the npm Registry, and npm CLI.We
-            offer those to the
-            community for free, but our day job is building and selling useful tools foe developers.</p>
-
-        <span></span>
-
-        <h2>Take ur JavaScript <br>development up a notch </h2>
-        <p>Get started today for free, or step up to npm Pro to enjoy a premium JavaScript development experience, with
-            features like private packages.</p>
-        <button>Sign Up for free</button><button>Learn about pro</button>
     </section>
-    <section>
-        <img src="assets/bubble.png" alt="bubble_image">
-        <h1>Bring the best of open source to you, your team,and your company</h1>
-        <p>Relied upon by more than 11 million developers worldwide, npm is committed to making JavaScript development
-            elegant, productive, and safe. The free npm Registry has become the center of JavaScript code sharing, and
-            with more than one million packages, the largest software registry in the world. Our other tools and
-            services take the Registry, and the work you do around it, to the next level.</p>
-        <hr>
-    </section>
-
-
-    <section>
-        <img src="assets/img (1).png" alt="image1">
-        <h2>npm Free</h2>
-        <p>Become a contributing member of the open source JavaScript community. Create public packages, publish
-            updates, audit your dependencies, and more.</p>
-        <button>Learn more</button><br>
-        <img src="assets/img (2).png" alt="image2"><img src="assets/img (5).png" alt="image3">
-        <h2>npm Pro & Teams</h2>
-        <p>For next-level JavaScript developers who want more capabilities. Pro and Teams add the ability to build
-            private packages for you, your team, or for customers.</p>
-        <button>Learn more</button><br>
-        <img src="assets/img (3).png" alt="image3">
-        <h2>npm Enterprise</h2>
-        <p>For very large teams and business-critical projects, npm Enterprise delivers features that organizations with
-            hundreds of developers need, like SSO and enhanced security.</p>
-        <button>Learn more</button><br>
-        <img src="assets/img (4).png" alt="image4">
-        <h2>npm PkgSafe</h2>
-        <p>Our security team's unique insights into JavaScript vulnerabilities and threats are delivered as free and
-            premium features, as well as services for resellers and others.</p>
-        <button>Learn more</button>
-    </section>
-    <section>
-        <h1>We open source</h1>
+    <section class="section3">
+        <h1>We ❤ open source</h1>
         <br>
-        <p>At npm, Inc., we're proud to dedicate teams of full-time employees to operating the npm Registry, enhancing
-            the CLI, improving JavaScript security, and other projects that support and nurture a vibrant open source
+        <p>At npm, Inc., we're proud to dedicate teams of full-time employees to <br>operating the npm Registry,
+            enhancing
+            the CLI, improving JavaScript<br> security, and other projects that support and nurture a vibrant open
+            <br>source
             community.</p>
-        <hr>
-    </section>
-    <section>
-        <h1>Gratefully serving everyone from solos devs to the Fortune 500</h1>
-        <hr>
-        <img src="assets/company.png" alt="company">
-    </section>
 
 
-    <footer>
-        <h2>Help</h2>
-        <ul>
-            <li>Documentation</li>
-            <li>Community</li>
-            <li>Resources</li>
-            <li>Advisories</li>
-            <li>Status</li>
-            <li>Contact</li>
-        </ul>
-        <h2>About</h2>
-        <ul>
-            <li>Company</li>
-            <li>Blog</li>
-            <li>Careers</li>
-            <li>Webinars</li>
-            <li>Press</li>
-            <li>Newsletter</li>
-        </ul>
-        <h2>Terms & Policies</h2>
-        <li>Policies</li>
-        <li>Terms of Use</li>
-        <li>Code of Conduct</li>
+    </section>
+    <section class="section4">
+        <h1>Gratefully serving everyone<br> from solos devs to the<br> Fortune 500</h1>
+        <hr>
+        <img id="company" src="assets/company.png" alt="company">
+    </section>
+    <div>
+        <hr>
+    </div>
+    <footer class="foot">
+        <div>
+            <h2>Help</h2>
+            <ul>
+                <li>Documentation</li>
+                <li>Community</li>
+                <li>Resources</li>
+                <li>Advisories</li>
+                <li>Status</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div>
+            <h2>About</h2>
+            <ul>
+                <li>Company</li>
+                <li>Blog</li>
+                <li>Careers</li>
+                <li>Webinars</li>
+                <li>Press</li>
+                <li>Newsletter</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Terms & Policies</h2>
+            <ul>
+                <li>Policies</li>
+                <li>Terms of Use</li>
+                <li>Code of Conduct</li>
+            </ul>
+        </div>
     </footer>
 </body>
 
