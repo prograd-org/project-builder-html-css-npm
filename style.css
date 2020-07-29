@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+/*section1*/
+
+header {
+    border-bottom: 1px solid lightgray;
+    margin: 5px;
+}
+
+
+
+header>div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+nav {
+    width: 600px;
+}
+
+span {
+    font-weight: bold;
+    padding-right: 360px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.blackHeart {
+    padding: 10px 4px 0 16px;
+    width: 20px;
+    margin-right: 1rem;
+}
+
+.logo2 {
+    padding: 10px 0 0 16px;
+    width: 15px;
+    margin-right: 1rem;
+}
+
+.button0 {
+    color: white;
+    font-size: 14px;
+    padding: 8px 32px;
+    letter-spacing: 0.3px;
+    font-weight: bold;
+    margin-left: 10px;
+    background-color: #231f20;
+}
+
+.input {
+    font-size: 14px;
+    padding: 10px 550px 10px 0px;
+    background: #f2f2f2;
+    border: none;
+}
+
+#head {
+    padding: 10px;
+    background: #f2f2f2;
+}
+
+#head0 {
+    padding: 10px;
+}
+
+.button1 {
+    background: white;
+    margin-left: 30px;
+    font-size: 14px;
+    padding: 8px 32px;
+    letter-spacing: 0.3px;
+    font-weight: bold;
+    border: 1px solid grey;
+}
+
+.button1_1 {
+    background: white;
+    font-size: 14px;
+    padding: 8px 32px;
+    letter-spacing: 0.3px;
+    border: none;
+    font-weight: bold;
+}
+
+/* section 1*/
+
+#s1 {
+    background: url(assets/background2.png);
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 48px;
+    margin: 32px 0;
+}
+
+.s11 {
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.25;
+}
+
+.break {
+    display: block;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 20px 0;
+    line-height: 1.25;
+}
+
+.form {
+    margin: 32px 0;
+}
+
+#button2 {
+    margin-right: 8px;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 800;
+    background: #c12127;
+    border-bottom: solid 5px #fa8717;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+#button3 {
+    margin-left: 8px;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 800;
+    background: #e81aa8;
+    border-bottom: solid 5px #b30ad2;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+/*section 2*/
+
+img {
+    max-width: 100%;
+    border-style: none;
+}
+
+.bubble {
+    margin: 0 129px 32px;
+    display: block;
+}
+
+#s2 {
+    padding: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+/*Section 3*/
+
+#s3 {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: center;
+}
+
+.div1 {
+    padding: 10px;
+}
+
+.s12 {
+    height: 100px;
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.5;
+    margin: 0 0 32px;
+}
+
+.button4 {
+    padding: 8px 32px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 9999px;
+}
+
+/*section 4*/
+
+#s4 {
+    background: url(assets/background.png);
+    background-position: center;
+    color: white;
+    padding: 64px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-weight: 600;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 16px 0;
+}
+
+/*section 5*/
+
+#s5 {
+    display: flex;
+    flex-direction: column;
+    padding: 64px 12px 36px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#h2 {
+    padding: 0 256px 64px;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid lightgray;
+}
+
+#company {
+    width: 480px;
+}
+
+/*section 6*/
+
+#s6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+#s6 div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#s6 ul {
+    font-size: 16px;
+    list-style: none;
+}
+
+#s6 ul li {
+    margin: 10px 0;
+}
+
+#h3 {
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    flex-direction: column;
+}
