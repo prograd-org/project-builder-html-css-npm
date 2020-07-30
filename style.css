@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;0,800;1,200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+.logotext {
+    font-size: 1.5em;
+    font-weight: 200;
+    color: #000;
+}
+
+.nav-link {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#home {
+    background-image: url(assets/b1.png);
+    color: white;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div {
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+
+header div p {
+    font-size: 2.5em;
+    font-weight: 200;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+h4 {
+    font-size: 1.8em;
+}
+
+.b1 {
+    text-decoration: none;
+    text-align: center;
+    background-color: #9a1f40;
+    cursor: pointer;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    color: white;
+    font-size: 1.8em;
+    padding: 10px;
+    border-radius: 5%;
+    border-color: black;
+    border-bottom: yellow;
+}
+
+#bio,
+#bio1,
+#bio2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bio article {
+    margin-top: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 50px;
+}
+
+#bio article h2 {
+    line-height: 40px;
+}
+
+#bio img {
+    width: 50;
+    margin: 10px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+#portfolio,
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#ski {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#ski div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skills ul {
+    list-style: none;
+
+}
+
+#skills ul li {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+hr {
+    width: 1000px;
+}
+
+#portfolio h3,
+hr,
+p {
+    margin-bottom: 20px;
+}
+
+#d1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    width: 100%;
+}
+
+
+#d1 div {
+    background-color: white;
+    color: black;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#d1 div p {
+    padding: 0 5px;
+}
+
+#bio1 {
+    background-image: url(assets/background.png);
+    height: 400px;
+    margin-top: 20px;
+}
+
+#bio1 article h2 {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
+
+#bio1 article p {
+    margin-left: 450px;
+    margin-right: 450px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#bio2 article img {
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 40px;
+
+}
+
+#bio2 article h2 {
+    margin-top: 40px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.learn {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: black;
+    background-color: white;
+    font-size: 15px;
+    border-right: 1px;
+    border-style: solid;
+
+}
