@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  border: 1px solid black;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  border: 1px solid black;
+}
+
+#main-header-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.github-logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  padding: 0px;
+}
+
+.npm-logo {
+  height: 40px;
+  width: 80px;
+  background-color: black;
+  color: white;
+}
+
+#link {
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+}
+
+#main-header {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border: 1px solid black;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* second */
+
+.black-heart {
+  height: 20px;
+}
+
+#second-header {
+  display: flex;
+  border: 1px solid black;
+  width: 100%;
+  padding: 15px;
+}
+
+#image-container-header {
+  display: flex;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  float: right;
+}
+
+#nav-link {
+  display: flex;
+}
+
+#nav-link li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-size: large;
+}
+
+/* third */
+
+#third {
+  display: flex;
+  width: 100%;
+  padding: 25px;
+}
+
+input {
+  width: 70%;
+  height: 40px;
+  border: none;
+  background-color: #f2f2f2;
+}
+
+.search-icon {
+  height: 20px;
+  background-color: #f2f2f2;
+  padding: 10px 10px 10px 10px;
+}
+
+.search-btn {
+  width: 100px;
+  background-color: #231f21;
+  color: white;
+  font-weight: bolder;
+}
+
+.btn {
+  width: 100px;
+  margin-left: 25px;
+}
+
+.btn-design {
+  background-color: white;
+  font-weight: bolder;
+}
+
+.btn-normal {
+  background-color: white;
+  border: none;
+  font-weight: bolder;
+}
+
+#third-logo {
+  padding-right: 10px;
+  background-color: white;
+}
+
+#style-container {
+  display: flex;
+  height: 10px;
+  width: 100%;
+  background-color: red;
+}
