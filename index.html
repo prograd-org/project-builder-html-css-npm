@@ -1,12 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    
+    <header>
+        <div>
+            <div>
+                <img class="blackHeart" src="./assets/black-heart.png" alt="black heart" />
+                <span> next() Packaged Middleware </span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#Products"> Products </a></li>
+                    <li><a href="#Pricing"> Pricing </a></li>
+                    <li><a href="#Documentation"> Documentation </a></li>
+                    <li><a href="#Community"> Community </a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div>
+            <!-- add logo, search bar and buttons (or links and style them as buttons later) -->
+            <img src="./assets/logo.png" alt="logo" />
+            <form action="#">
+                <input type="text" placeholder="Search.." name="search" />
+                <input type="submit" value="Search" class="search-button"></button>
+
+                <input type="submit" value="Sign Up">
+                <input type="submit" value="Sign In">
+
+            </form>
+        </div>
+    </header>
+
+    <div>
+        <section id="Products">
+            <div class="products-flex">
+                <div class="products-flex-div">
+                    <h1>Build amazing things</h1>
+                    <article>
+                        We're npm,Inc. the company behind Node package manager,t eh nmp Registry, and npm CLI. We offer
+                        those to
+                        the community for foree, but our day job is building and selling useful tools for developers
+                        like
+                        you.
+                    </article>
+                    <h2>Take your JavaScript development up a notch</h2>
+                    <article>
+                        Get started today for free, or step up to npm Pro to enjoy a premium JavaScript development
+                        experience,
+                        with features like private packages.
+                    </article>
+                    <div class="sigin-btn">
+                        <input type="submit" value="Sign up for free" class="free-signup">
+                        <input type="submit" value="Learn about pro" class="pro-learn"></div>
+                </div>
+                <div class="white-back">
+                    <div class="white-back-div">
+                        <img src="./assets/bubble.png" alt="">
+                        <h3>Bring the best of open source to you, your team, and your company</h3>
+                        <article>
+                            Relied upon by more than 11 million developers worldwide, npm is committed to making
+                            JavaScript
+                            development elegant, productive, and safe. the free npm Registry has become the center of
+                            JavaScript
+                            code sharing, and with more than one million packages, the largest software registry in the
+                            world.
+                            Our other tools and services take the Registry, and the work you do around it, to the next
+                            level.
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Pricing">
+            <div class="Pricing-css">
+                <div>
+                    <article>
+                        <img src="./assets/img (1).png" alt="">
+                        <h4>npm Free</h4>
+                        <p>
+                            Become a contributing member of the open source JavaScript community. Create public
+                            packages,
+                            publich updates, audit your dependencies, and more.
+                        </p>
+                        <input type="submit" value="learn more" class="learnmore-btn">
+                    </article>
+                    <article>
+                        <img src="./assets/img (2).png" alt="">
+                        <img src="./assets/img (5).png" alt="">
+                        <h4>npm Pro & Teams</h4>
+                        <p>
+                            For next-level JavaScript developers who want more capabilities. Pro and Teams add the
+                            ability
+                            to build private packages for you, your team, or for customers.
+                        </p>
+                        <input type="submit" value="learn more" class="learnmore-btn">
+                    </article>
+                    <article>
+                        <img src="./assets/img (3).png" alt="">
+                        <h4>npm Enterprise</h4>
+                        <p>
+                            For very large teams and business-critical projects, npm Enterprise delivers features that
+                            organizations with hundreds of developrs need, like SSO and enhanced security.
+                        </p>
+                        <input type="submit" value="learn more" class="learnmore-btn">
+                    </article>
+                    <article>
+                        <img src="./assets/img (4).png" alt="">
+                        <h4>npm PkgSafe</h4>
+                        <p>
+                            Our security teams's unique insights into JavaScript vulnerabilities and threats are
+                            delivered
+                            as free and premium features as well as services for resellers and others.
+                        </p>
+                        <input type="submit" value="learn more" class="learnmore-btn">
+                    </article>
+                </div>
+            </div>
+            <div class="Pricing-back">
+                <div class="Pricing-back-div">
+                    <h1>We <img src="./assets/black-heart.png" width="50px" height="" alt="">open source </h1>
+                    <article>
+                        At npm, Inc., we're proud to dedicate teams of full-time employees to operating the npm
+                        Registry,
+                        enhancing the CLI, improving JavaScript security, and other projects that support and nurture a
+                        vibrant open source community.
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="Documentation">
+            <div class="doc-flex">
+                <h3>Gratefully serving everyone from solo devs to the Fortune 500</h3>
+                <img src="./assets/company.png" alt="" width="200px">
+            </div>
+
+        </section>
+
+        <section id="Community">
+            <div class="Community-flex">
+                <div>
+                    <h4>
+                        Help
+                    </h4>
+                    <div class="li-size">
+                        <ul style="list-style-type:none;">
+                            <li>Documentation</li>
+                            <li>Community</li>
+                            <li>Resources</li>
+                            <li>Advisories</li>
+                            <li>Status</li>
+                            <li>Contact</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div>
+                    <h4>
+                        About
+                    </h4>
+                    <div class="li-size">
+                        <ul style="list-style-type:none;">
+                            <li>Company</li>
+                            <li>Blog</li>
+                            <li>Careers</li>
+                            <li>Webinars</li>
+                            <li>Press</li>
+                            <li>Newsletter</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div>
+                    <h4>
+                        TermsPolicies </h4>
+                    <div class="li-size">
+                        <ul style="list-style-type:none;">
+                            <li>Policies</li>
+                            <li>Terms of Use</li>
+                            <li>Code of Conduct</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
 </body>
+
 </html>
