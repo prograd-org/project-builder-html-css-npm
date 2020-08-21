@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,600;0,700;0,800;1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  font-size: 1.5em;
+  color: #000;
+}
+
+h3 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+header .main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #000;
+}
+
+header .main-nav img {
+  height: 70px;
+  width: 70px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+header .main-nav ul li {
+  margin-bottom: 20px;
+}
+
+header .main-nav ul li a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+header .main-nav ul img {
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
+}
+
+header .sec-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 20px 10px 20px;
+}
+
+header .sec-nav img {
+  width: 25px;
+  height: 25px;
+}
+
+header .sec-nav img:hover {
+  opacity: 0.7;
+}
+
+header .sec-nav span:hover {
+  opacity: 0.7;
+}
+
+header .sec-nav nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .sec-nav nav ul a {
+  margin: 5px;
+  color: #000;
+  font-size: 1em;
+}
+
+header .sec-nav nav ul a:hover {
+  opacity: 0.7;
+}
+
+header .third-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px;
+  width: 100%;
+}
+
+header .third-nav .item-2 {
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+}
+
+header .third-nav .item-2 input {
+  padding: 0.7rem;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+
+header .third-nav .item-2 button, header .third-nav .item-2 a {
+  padding: 0.8rem;
+  background: #000;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 800;
+  -webkit-box-flex: 0.5;
+      -ms-flex-positive: 0.5;
+          flex-grow: 0.5;
+}
+
+header .third-nav .item-3 {
+  margin-left: auto;
+}
+
+header .third-nav img {
+  height: 50px;
+  width: 50px;
+}
+
+header .third-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .third-nav ul li {
+  margin-right: 20px;
+}
+
+header .third-nav ul li a {
+  padding: 0.7rem;
+  color: #000;
+}
+
+header .third-nav ul li:nth-child(1) a {
+  border: 1px solid #000;
+}
+
+header .third-nav ul li:nth-child(1) a:hover {
+  opacity: 0.7;
+}
+
+.section-1 {
+  background: url(./assets/b1.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.section-1 h1 {
+  font-size: 5.5rem;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.section-1 p {
+  max-width: 600px;
+  margin: 20px 0;
+}
+
+.section-1 div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-1 div ul li {
+  margin: 80px 30px;
+}
+
+.section-1 div ul li a {
+  padding: 15px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.section-1 div ul li:nth-child(1) a {
+  background: #c12127;
+  border-bottom: solid 5px #fa8717;
+}
+
+.section-1 div ul li:nth-child(2) a {
+  background: #e81aa8;
+  border-bottom: solid 5px #b30ad2;
+}
+
+.section-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+}
+
+.section-2 h3, .section-2 p {
+  max-width: 45%;
+  text-align: center;
+}
+
+.section-2 h3 {
+  margin-top: 5%;
+}
+
+.section-2 p {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.section-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 7%;
+}
+
+.section-3 div div {
+  margin-bottom: 45px;
+}
+
+.section-3 div div h4 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.section-3 div a {
+  border: 1px solid #000;
+  border-radius: 30px;
+  padding: 15px;
+  color: #000;
+}
+
+.section-4 {
+  background: url(./assets/background.png);
+  padding: 6% 30%;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-4 h2 {
+  font-size: 3.5rem;
+  margin-bottom: 25px;
+}
+
+.section-4 p {
+  text-align: center;
+}
+
+.section-5 {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-5 h3 {
+  text-transform: uppercase;
+  max-width: 60%;
+}
+
+.section-5 img {
+  margin: 5% 0;
+  max-width: 40%;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 30px;
+  padding-top: 5%;
+  margin-bottom: 30px;
+}
+
+.footer img {
+  height: 60px;
+  width: 60px;
+}
+
+.footer h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer a {
+  font-weight: 100;
+  line-height: 3rem;
+}
+/*# sourceMappingURL=style.css.map */
