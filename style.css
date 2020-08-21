@@ -1,0 +1,408 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+/* header form input {
+    color: rgba(0, 0, 0, .05);
+}
+
+header form button {
+    background: #fb3e44;
+    color: white;
+} */
+.break {
+  display: block;
+}
+
+.uplogo {
+  font-size: 1em;
+  font-weight: 700;
+  padding-left: 100px;
+}
+
+nav {
+  width: 600px;
+  display: flex;
+  align-content: center;
+  flex-grow: 0;
+  justify-content: center;
+  padding-right: 0;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 100px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  align-content: flex-end;
+}
+
+nav ul li {
+  display: flex;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: grey;
+}
+
+.blackHeart {
+  width: 30px;
+}
+
+.topnav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  height: 4.5em;
+}
+
+.topnav a {
+  float: left;
+  display: flex;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.active {
+  background-color: #2196f3;
+  color: white;
+}
+
+.topnav input[type="text"] {
+  padding: 6px;
+  padding-bottom: 6px;
+  margin-top: 7px;
+  font-size: 17px;
+  border: none;
+  width: 1200px;
+  height: 45px;
+  background: lightgrey;
+}
+#searchbtn {
+  background: black;
+  width: 90px;
+  height: 45px;
+  color: white;
+  font-size: 0.8em;
+  font-weight: 800;
+  border: none;
+}
+#signin:hover {
+  color: gray;
+}
+#signin {
+  background: white;
+  width: 90px;
+  height: 45px;
+  color: black;
+  font-size: 0.8em;
+  font-weight: 800;
+  border: none;
+  margin-left: 5px;
+}
+#signup:hover {
+  color: gray;
+  border: 0.5px solid lightgray;
+}
+#signup {
+  background: white;
+  width: 90px;
+  height: 45px;
+  color: black;
+  font-size: 0.8em;
+  font-weight: 800;
+  border: 0.5px solid gray;
+  margin-left: 5px;
+}
+.logo {
+  display: flex;
+  margin-left: 50px;
+  width: 110px;
+}
+/* 
+.search {
+  width: 30px;
+} */
+
+#sec1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: url("./assets/background2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 850px;
+  font-size: 1.5em;
+}
+
+#sec1 h2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 3.2em;
+  text-align: center;
+  padding-top: 0%;
+  padding-left: 600px;
+  padding-right: 600px;
+}
+
+#sec1 h3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 1%;
+  padding-left: 650px;
+  padding-right: 650px;
+}
+
+#sec1 div p {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1%;
+  padding-left: 620px;
+  padding-right: 620px;
+  font-size: 0.7em;
+}
+
+#sec1 button {
+  width: 250px;
+  height: 60px;
+}
+
+#redd {
+  margin: 2%;
+  background: #cc0000;
+  color: white;
+  font-size: 0.8em;
+  font-weight: 800;
+  border: none;
+  border-bottom: 5px solid yellow;
+}
+
+#purplee {
+  background: #ff1a8c;
+  color: white;
+  border: none;
+  font-size: 0.8em;
+  font-weight: 800;
+  border-bottom: 5px solid purple;
+}
+
+#sec2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  height: 650px;
+  font-size: 1.5em;
+}
+
+#sec2 div p {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1%;
+  padding-left: 620px;
+  padding-right: 620px;
+  font-size: 0.7em;
+  color: #333333;
+}
+
+#sec2 h3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 1%;
+  padding-left: 660px;
+  padding-right: 660px;
+  color: #333333;
+}
+
+#sec3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: url("./assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 320px;
+  font-size: 1.5em;
+}
+
+#sec3 h3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6em;
+  text-align: center;
+  padding-top: 1%;
+  padding-left: 650px;
+  padding-right: 650px;
+}
+
+#sec3 p {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1%;
+  padding-left: 620px;
+  padding-right: 620px;
+  font-size: 0.7em;
+}
+
+#sec4 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  height: 500px;
+  font-size: 1.5em;
+}
+
+.con2 {
+  display: flex;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+#sec4 article {
+  padding: 5%;
+  text-align: left;
+}
+
+#sec4 h3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8em;
+  text-align: left;
+  padding-top: 1%;
+}
+
+#sec4 p {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.7em;
+}
+
+#btnlrnmore {
+  background: white;
+  color: black;
+  border: 2px solid black;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  font-weight: 800;
+}
+
+#sec5 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 1050px;
+  font-size: 1.5em;
+}
+
+#sec5 h2 {
+  display: flex;
+  /* flex-direction: column; */
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 0%;
+  padding-left: 660px;
+  padding-right: 660px;
+  padding-bottom: 3%;
+  color: #333333;
+  /* border-bottom: 1px solid black; */
+}
+
+#sec5 img {
+  display: flex;
+  padding: 5%;
+  width: 650px;
+}
+
+#sec5 div {
+  display: flex;
+}
+#sec6 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  /* /* align-items: center; */
+  justify-content: space-around;
+  height: 300px;
+  font-size: 1.5em;
+}
+
+#sec6 footer {
+  display: flex;
+  width: 100%;
+}
+
+#sec6 img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  padding-top: 0%;
+}
+
+#sec6 article {
+  padding: 8%;
+  padding-top: 2%;
+  text-align: left;
+}
+#sec6 h3 {
+  display: flex;
+  font-size: 0.8em;
+  text-align: left;
+  font-weight: 800;
+}
+
+#sec6 ul li {
+  list-style: none;
+  padding: 5%;
+  font-size: 0.8em;
+}
