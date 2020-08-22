@@ -1,0 +1,190 @@
+                        @import url('https://fonts.googleapis.com/css?family=Poppins');
+                        body {
+                            font-family: 'Poppins';
+                            font-size: 10px;
+                            background-color: white;
+                        }
+                        
+                        * {
+                            margin: 0;
+                            padding: 0;
+                        }
+                        
+                        header div div {
+                            display: flex;
+                        }
+                        
+                        nav ul {
+                            display: flex;
+                            list-style-type: none;
+                        }
+                        
+                        nav a {
+                            text-decoration: none;
+                            color: black;
+                            padding: 12px;
+                            font-weight: bold;
+                        }
+                        
+                        header>div {
+                            padding: 0 25px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            border: 1px solid lightgray;
+                            padding: 10px;
+                        }
+                        
+                        .logo {
+                            width: 80%;
+                            height: 35px;
+                            border: none;
+                            background-color: lightgrey;
+                        }
+                        
+                        #button {
+                            border: 1 px solid black;
+                            color: white;
+                            background-color: black;
+                            padding: 5px;
+                            cursor: pointer;
+                        }
+                        
+                        #button2 {
+                            border: 0.5px solid black;
+                            color: black;
+                            background-color: white;
+                            padding: 5px;
+                            cursor: pointer;
+                        }
+                        
+                        #button3 {
+                            border: 0px solid black;
+                            color: black;
+                            background-color: white;
+                            padding: 5px;
+                            cursor: pointer;
+                        }
+                        
+                        #logoimg {
+                            display: flex;
+                            justify-content: space-between;
+                            margin: 10px;
+                        }
+                        
+                        #build {
+                            display: flex;
+                            flex-direction: column;
+                            background-image: url("./assets/background2.png");
+                            justify-content: center;
+                            padding: 35px;
+                            color: white;
+                            align-items: center;
+                            margin: 15px;
+                        }
+                        
+                        .buildname {
+                            font-size: 70px;
+                        }
+                        
+                        .buildname2 {
+                            font-size: 40px;
+                        }
+                        
+                        .BD {
+                            font-size: 15px;
+                        }
+                        
+                        .break {
+                            /* display: block; */
+                            margin-left: 10%;
+                            position: absolute;
+                        }
+                        
+                        #section2 {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            background-image: url("./assets/background2.png");
+                            padding: 45px;
+                            color: black;
+                            align-items: center;
+                            margin: 15px;
+                        }
+                        
+                        #section3 {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            padding: 45px;
+                            color: black;
+                            align-items: center;
+                            margin: 15px;
+                        }
+                        
+                        #section4 {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            padding: 25px;
+                            color: black;
+                            align-items: center;
+                            margin: 15px;
+                        }
+                        
+                        #section4 div div {
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                            background-color: white;
+                            color: black;
+                            height: 200px;
+                            width: 200px;
+                            text-align: center;
+                            flex-direction: column;
+                            border-radius: 10px;
+                        }
+                        
+                        #section4 div {
+                            display: flex;
+                        }
+                        
+                        #section4 button {
+                            border-radius: 15px;
+                            padding: 5px;
+                        }
+                        
+                        #section5 {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            background-image: url("./assets/background.png");
+                            padding: 45px;
+                            color: white;
+                            align-items: center;
+                            margin: 15px;
+                        }
+                        
+                        #section6 {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 20px;
+                            margin: 20px;
+                        }
+                        
+                        #footer div div {
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                            flex-direction: column;
+                            padding: 25px;
+                        }
+                        
+                        #footer div {
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                            line-height: 3;
+                        }
