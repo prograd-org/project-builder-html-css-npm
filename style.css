@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap");
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 4em;
+
+}
+
+h3 {
+    font-size: 3.5em;
+}
+
+h4 {
+    font-size: 2.5em;
+}
+
+h5 {
+    font-size: 1.5em;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#l {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#last {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/background.png);
+    padding: 40px;
+    color: white;
+}
+
+#m {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#b1,
+#b2 {
+    background-image: url(./assets/b1.png);
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin: 20px;
+}
+
+#b2 div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 40px 30px 40px;
+
+}
+
+#b2 {
+    background-image: url(./assets/background2.png);
+}
+
+.break {
+    display: block;
+    padding: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.black-heart {
+    width: 50px;
+    height: 25px;
+}
+
+input[type=text] {
+    width: 800px;
+    height: 40px;
+}
+
+input[type=button] {
+    height: 45px;
+    width: 160px;
+    padding: 10px;
+    text-align-last: center;
+    margin: 0 15px;
+}
+
+
+#set {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+.header {
+    padding: 20px 0 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul,
+header>div>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #E4E3DB
+}
