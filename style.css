@@ -47,6 +47,10 @@ footer ul {
     list-style: none;
 }
 
+footer img {
+    display: inline;
+}
+
 #img {
     display: flex;
     justify-content: center;
@@ -127,18 +131,108 @@ p {
 }
 
 input[type=text] {
-    width: 800px;
+    width: 1040px;
     height: 40px;
+    margin: 0px;
 }
 
-input[type=button] {
-    height: 45px;
-    width: 160px;
+#flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.learn {
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: black;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 10% / 50%;
+    border: groove 1px black;
+}
+
+#sign-up {
+
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: white;
     padding: 10px;
-    text-align-last: center;
-    margin: 0 15px;
+    margin: 0px 20px 0px 0px;
+    border: groove 2px black;
+    color: black;
+
 }
 
+#login {
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: white;
+    padding: 10px;
+    border-color: black;
+    color: black;
+
+
+}
+
+#f {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#s {
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 120px;
+    margin: 0px 40px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#free {
+    background-color: #B22222;
+    color: white;
+    height: 50px;
+    width: 120px;
+    margin: 0px;
+    text-decoration: none;
+    padding: 20px 50px;
+}
+
+.space {
+    display: inline;
+    padding: 40px;
+}
+
+#pro {
+    background-color: #FF69B4;
+    color: white;
+    height: 50px;
+    width: 120px;
+    margin: 0px;
+    color: white;
+    text-decoration: none;
+    padding: 20px 50px;
+}
 
 #set {
     display: flex;
@@ -149,6 +243,7 @@ input[type=button] {
 nav ul li {
     margin: 0 20px;
 }
+
 
 .header {
     padding: 20px 0 0 50px;
