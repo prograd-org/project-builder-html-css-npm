@@ -332,3 +332,34 @@ nav ul li {
     text-align: center;
     color: #303030;
 }
+
+
+.footer1 {
+    margin-top: 180px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    color: black;
+    height: 300px;
+    font-family: Poppins, sans-serif;
+}
+
+.footer1 ul {
+    list-style: none;
+    font-size: 1.5em;
+    line-height: 3em;
+    margin-left: 0;
+}
+
+.footer1 ul a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .7);
+}
+
+.footer1 .headingfoot {
+    font-size: 1.75em;
+    color: #231f20;
+    font-weight: 900;
+}
