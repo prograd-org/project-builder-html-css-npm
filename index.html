@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>npm build amazing things</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -20,7 +20,9 @@
         </span>
         <a href="#"><img src="./assets/githublogo.png" alt="github logo"></a>
     </div>
+
     <img src="./assets/background.png" alt="background" height="10px;" width="100%">
+
     <div class="navbar">
         <nav>
             <ul>
@@ -37,47 +39,63 @@
             </ul>
         </nav>
     </div>
-    <div>
+
+    <div class="searchbar">
         <a href="#">
-            <img src="./assets/logo2.jpg" alt="logo2" width="80px;" height="50px;"> </a>
+            <img src="./assets/logo2.jpg" id="npmlogo2" alt="logo2" width="80px;" height="50px;"> </a>
         <form action="#">
-            <img src="./assets/searchlogo.png" alt="search logo" width="30px;" height="25px;">
-            <input type="search" placeholder="Search packages">
-            <button name="Search">Search</button>
-            <button name="Search">Signup</button>
-            <button name="Search">Signin</button>
+            <img src="./assets/searchlogo.png" id="npmsearchlogo" alt="search logo" width="30px;" height="25px;">
+            <input type="search" class="search" placeholder="Search packages">
+            <button name="Search" id="searchbtn">Search</button>
+            <button name="Search" id="signupbtn">Sign Up</button>
+            <button name="Search" id="signinbtn">Signin</button>
         </form>
     </div>
-    <div>
-        <h1>Build amazing things</h1>
-        <p>We're npm, Inc., the company behind Node package manager, the npm Registry, and npm CLI. We offer those to
-            the community for free, but our day job is building and selling useful tools for developers like you.</p>
-        <h2>Take your JavaScript development up a notch</h2>
-        <p>Get started today for free, or step up to npm Pro to enjoy a premium JavaScript development experience, with
-            features like private packages.</p>
-        <div><button name="SignUp"> Sign Up for free</button></div>
-        <div><button name="pro">Learn about Pro</button></div>
-    </div>
-    <div>
+
+    <header class="banner1">
+        <span class="heading1">Build amazing things</span>
+        <span class="para1">We're npm, Inc., the company behind Node package manager, the npm Registry, and npm CLI. We
+            offer those to
+            the community for free, but our day job is building and selling useful tools for developers like you.</span>
+        <span class="heading2">Take your JavaScript development up a notch</span>
+        <span class="para2">Get started today for free, or step up to npm Pro to enjoy a premium JavaScript development
+            experience, with
+            features like private packages.</span>
+        <div>
+            <button name="SignUp" class="btn1"> Sign Up for free</button>
+            <button name="pro" class="btn2">Learn about Pro</button>
+        </div>
+    </header>
+
+    <div class="bubble1">
         <img src="./assets/bubble.png" alt="bubble">
-        <h2>Bring the best of open source to you, your team, and your company</h2>
-        <p>Relied upon by more than 11 million developers worldwide, npm is committed to making JavaScript development
+        <span class="text1">Bring the best of open source to you, your team, and your company</span>
+        <span class="text2">Relied upon by more than 11 million developers worldwide, npm is committed to making
+            JavaScript
+            development
             elegant, productive, and safe. The free npm Registry has become the center of JavaScript code sharing, and
             with more than one million packages, the largest software registry in the world. Our other tools and
-            services take the Registry, and the work you do around it, to the next level.</p>
+            services take the Registry, and the work you do around it, to the next level.</span>
     </div>
-    <div>
-        <h1>We ❤ open source</h1>
-        <p>At npm, Inc., we're proud to dedicate teams of full-time employees to operating the npm Registry, enhancing
+
+
+    <div class="open">
+        <span class="open1">We ❤ open source</span>
+        <span class="open2">At npm, Inc., we're proud to dedicate teams of full-time employees to operating the npm
+            Registry, enhancing
             the CLI, improving JavaScript security, and other projects that support and nurture a vibrant open source
-            community.</p>
+            community.</span>
     </div>
-    <div>
-        <h1>
-            Gratefully serving everyone from solo devs to the Fortune 500
-        </h1>
-        <img src="./assets/company.png" alt="companies logos">
+
+
+    <div class="companies">
+        <span class="grateful">
+            <strong>Gratefully serving everyone from solo devs to the Fortune 500</strong>
+        </span>
+        <img src="./assets/company.png" alt="companies logos" width="500px;" height="500px;">
     </div>
+
+
     <footer>
         <img src="./assets/npm footer logo.PNG" alt="npm logo">
         <div>
