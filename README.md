@@ -42,7 +42,6 @@ Our goal is to get as close as possible to this:
 ![](https://ilj8ng.bn.files.1drv.com/y4mH5euErvapj_XCRuOonRayqufCkv_jVTeiyGziHKme3FsJz1HvVXRmftBNVCQlxGdw3NCdMZZQOhkjqkMIaFH2DnxWRl6HCu4tPRFKlU7dcryBDyJsywLt9xFTOsO6cBtGBn_igNy4a3mzMdJ6vpDJkDr8qzjoJ2QHC_ECX3Lf8FMNUx8-ov7ClxaFwuDgV9rlPrdrlLEe9rOUMfIAWQWgg?width=1341&height=513&cropmode=none)
 ![](https://ilklng.bn.files.1drv.com/y4mpbWo-wfTgV2ia_oAQXu3rTLoYK50-lM3OFMKQejV6pIDF5wxrBCc-vvhb6VwsUrcVt13v0Oh3LOug4btJkV3aZ7Vv1ZQilAUn6zIosgdoGK9vg9nOF80DamecqwM6gpn4cE-X3ZYPemBBwqLp4-F2nTmYsrWiH68HImJgREKRwo8ifEfTLZ48Vb5lPkH5R3SE-uHSkCizUZfQolJduAXZg?width=1342&height=552&cropmode=none)
 
-
 Although it doesn't look too complicated, we will have to apply quite a few styles on our web page: set a background color on different elements, set a font weight (bold, normal), and position elements using our newly acquired skills in flexbox.
 
 We will divide our work into two parts:
@@ -153,10 +152,10 @@ Refresh the page in Chrome, and if your _style.css_ is linked properly, the page
 Before we move forward, add at the very top of your _style.css_ file the following lines:
 
 ```css
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url("https://fonts.googleapis.com/css?family=Poppins");
 
 body {
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 ```
 
@@ -226,7 +225,6 @@ _Useful information_:
 
 - background image is inside the assets folder.
 
-
 #### CSS 4 | section 2
 
 ![](https://jfkcng.bn.files.1drv.com/y4mFB6mDVX6J_QjQVZu7FWI62rOk4AoJ7zLJOpPqORJ8oWzHiBbEYQLmCL8PTFyW-shO5bJVjspXJOkj7BclLx6RzByqbZ56s_poyYCEr1OXVQY_xGoNzxw_y-sxvyC7f0rJowqVvdlTM40J84uzHOrIFl9W2XVfoo_yRffbluOOSOt7IVWDhRvXsUE1ge8ytNEqjQ4zcZBSyZKUJHB3W6ruw?width=1342&height=521&cropmode=none)
@@ -246,6 +244,7 @@ Again use a lot of flexbox to get the right position of elements - direction, ju
 ![](https://jfkang.bn.files.1drv.com/y4m86eISxpwtCD7HHun540D_TRoLKCV3MLPxOzBgOvkD2eBGFHDjz24s5QkMnmnDFi3KkN6IjLpxIjzuLFFjNxh3ABVCB0713sJxV8EZ-8i0K1NbmGj5OLGJAoO1yb_THY80ushGtynjdImqQ9yxHTPK60RI8izJ5SYfJtixg2gC2lwAxM9bgSUgLBhFU8r2-v4TapfdfwHkpJYwecRFl8dHA?width=1347&height=326&cropmode=none)
 
 #### CSS 7 | section 5
+
 ![](https://jfjqng.bn.files.1drv.com/y4mt88RWimlHj8iihCWedLjY8RyBzO4rn5h9JEYVjdCtXEbRtvbtqKcmk-kAWDhNwClt44zS-l1u9KM4VTrCqLl-EyixGiDrnpaEumYXWlc33goduuHTb8RScZFUrBNR-bqpdNWN8ZeRxLQSzEogXa3cU0Noi95U92ocx7Z8VPshkXSHDN8kA-OZ6uFHBNn8BJOPT2RypfRKo8G05XECNR8FQ?width=1348&height=176&cropmode=none)
 ![](https://jfjpng.bn.files.1drv.com/y4myLEYi6ScJR_Zj-Sy8kf3D7AyGLDwSr2TajDTJIwXAp3difAZb9eqRmK3R5i6GhDn8G32zmawWd-D3IECCDcynwaN0PdFJCdwkuqkpIXzMXTs12rawBQl6-kiF6U4QVqpFYFVj9KJJKyyJzPR7E_UJiZQisjcGuEn2BoXqvPEWSHgwrarPXH8RwpQec4bevyo9pBEqcmB2d-0rGy_D_O1KA?width=1345&height=662&cropmode=none)
 
