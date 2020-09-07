@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+#hr {
+    display: block;
+    border: 0px;
+    height: 8px;
+    background-image: url("./assets/b1.png");
+    transform: scaleX(-1);
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 80px;
+    color: white;
+    text-decoration: underline;
+    place-items: 10px;
+    align-items: center;
+    background-color: black;
+}
+
+#head {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    margin: 0px 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+    align-items: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 3px;
+    margin-inline-end: 3px;
+    padding-inline-start: 100px;
+}
+
+nav ul li {
+    margin: 0px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+nav ul li :hover {
+    color: grey;
+}
+
+.tr {
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+#heart:hover {
+    color: grey;
+}
+
+#text {
+    color: black;
+}
+
+#text:hover {
+    color: grey;
+}
+
+#searcher-class {
+    margin: 0px 55px 0px 0px;
+    padding: 4px 25px;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.search {
+    width: 1000px;
+    height: 55px;
+    background-color: #f2f2f2;
+    outline: none;
+    border-width: 0px;
+    border: none;
+}
+
+i {
+    display: flex;
+    font-size: 18px;
+    background-color: #f2f2f2;
+}
+
+.search::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+    text-indent: 10px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    opacity: 1;
+    /* Firefox */
+}
+
+#as {
+    width: 25px;
+    height: 25px;
+    padding: 10px 50px 20px 50px;
+    margin: 10px 10px 10px 0px;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-weight: 700;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#signup1 {
+    width: 50px;
+    height: 30px;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    border: 0.1px solid black;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#signup2 {
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+}
+
+#join {
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    flex-direction: row;
+    background-image: url("./background2.png");
+    text-align: center;
+}
+
+#join h1 {
+    margin: 100px 10px 0 0;
+    font-size: 80px;
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-size: 36px;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+}
+
+#signup {
+    width: 440px;
+    height: 61px;
+    padding: 10px 50px 20px 50px;
+    margin: 10px 10px 10px 0px;
+    border-bottom: 5px solid #fa8717;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #c12127;
+}
+
+#learn {
+    width: 440px;
+    height: 61px;
+    padding: 10px 50px 20px 50px;
+    margin: 10px 10px 10px 20px;
+    border-bottom: 5px solid #b30ad2;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #e81aa8;
+}
+
+#pro {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pro_head {
+    color: #000000;
+}
+
+#pro_p {
+    color: #000000;
+    font-size: 13px;
+}
+
+#pro h1 {
+    text-decoration: none;
+    width: 200px;
+    text-transform: uppercase;
+    height: 40px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 1000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    text-align: center;
+    color: black;
+}
+
+#openso {
+    background-image: url("./background2.png");
+}
+
+#dev {
+    margin: 60px 10px 0 0;
+    display: flex;
+    height: 580px;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    background: url(/background.png);
+}
+
+#dev h2 {
+    margin: 30px 10px 0 0;
+    color: black;
+    font-size: 36px;
+}
+
+#dev p {
+    margin: 30px 10px 0 0;
+    color: black;
+    font-size: 15px;
+}
+
+#openso {
+    display: flex;
+    height: 320px;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+#openso h2 {
+    margin: 60px 0px 4px 0;
+    font-size: 46px;
+}
+
+#openso p {
+    margin: 30px 10px 0 0;
+    color: white;
+    font-size: 15px;
+}
+
+#list-companies h2 {
+    margin: 60px 50px 0 0;
+    margin-bottom: 25px;
+    font-weight: 600;
+    color: #333333;
+    font-size: 36px;
+    line-height: 45px;
+}
+
+#list-companies {
+    display: flex;
+    height: 320px;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    height: fit-content;
+    margin-bottom: 65px;
+}
+
+#comp {
+    width: 520px;
+    height: 580px;
+    align-content: center;
+    margin: 15px 10px 0 0;
+}
+
+#foot {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 60px 20px 0px 20px;
+    background: white;
+    color: black;
+}
+
+#foot svg {
+    width: 55px;
+    height: 55px;
+}
+
+#foot support {
+    margin: 0px 0px;
+}
+
+#foot ul li {
+    margin: 20px 0;
+    list-style: none;
+    color: grey;
+}
