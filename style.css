@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins';
+    font-size: 10px;
+}
+
+header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 8px;
+    border-bottom: 1px solid lightgrey;
+}
+
+span {
+    font-size: 1.5em;
+}
+
+.heart {
+    width: 20px;
+    height: 10px;
+    margin-right: 1rem;
+}
+
+.navv {
+    display: flex;
+    justify-content: space-around;
+    width: 55em;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+}
+
+.input {
+    line-height: 2em;
+    width: 68em;
+    background: lightgrey;
+    border: 0;
+    padding: 1px 0 1px 4px;
+    margin-right: 0;
+}
+
+.button1 {
+    padding: 0.5em 1em;
+    background: black;
+    color: white;
+    border: 0;
+    margin-right: 17px;
+    margin-left: 0;
+}
+
+.button2 {
+    padding: 0.4em 1em;
+    background: white;
+    border: 1px solid black;
+}
+
+.button3 {
+    padding: 0.5em 1em;
+    background: white;
+    border: 0;
+}
+
+#first {
+    background: url(./assets/b1.png);
+    width: 100%;
+    height: 10em;
+    font-size: 2.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 15px;
+}
+
+#first p {
+    width: 50%;
+    font-size: 0.5em;
+    text-align: center;
+}
+
+#second {
+    background: url(./assets/b1.png);
+    width: 100%;
+    height: 10em;
+    font-size: 2.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+#second p {
+    font-size: 0.5em;
+    text-align: center;
+}
+
+.b1 {
+    font-style: bold;
+    color: white;
+    padding: 10px;
+    background: brown;
+    border: 0;
+    border-bottom: 3px solid orange;
+}
+
+.b2 {
+    font-style: bold;
+    color: white;
+    padding: 10px;
+    background: #fc03cf;
+    border: 0;
+    border-bottom: 3px solid #a130e3;
+}
+
+#third {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20em;
+    font-size: 2.5em;
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+
+}
+
+#third p {
+    font-size: 0.6em;
+    text-align: center;
+    width: 40%;
+    margin-top: 2em;
+}
+
+#fourth {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 25em;
+    padding: 6em 12em;
+    border-top: 1px solid lightgrey;
+}
+
+#fourth div {
+    margin-right: 6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.icon {
+    width: 40%
+}
+
+.buts {
+    background: white;
+    padding: 0.5em 1em;
+    border-radius: 15px;
+    font-size: 1em;
+    border-style: solid;
+    border-width: 1.5px;
+}
+
+#fifth {
+    background: url(./assets/background.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10em;
+    font-size: 2em;
+    color: white;
+
+}
+
+#fifth p {
+    font-size: 0.6em;
+    text-align: center;
+    width: 40%;
+    margin-top: 2em;
+    color: white;
+    width: 35%;
+
+}
+
+#hh {
+    border-bottom: 1px solid lightgrey;
+    font-size: 2em;
+    text-align: center;
+    padding: 2.5em;
+}
+
+.company {
+    padding: 3em 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#hello {
+    font-size: 1.5em;
+    border-top: 1px solid lightgrey;
+    display: flex;
+    justify-content: space-around;
+    padding: 3em 0;
+}
+
+#hello div h3 {
+    padding-bottom: 1em;
+
+}
+
+#hello div ul li {
+    list-style: none;
+    padding: 0.25em 0;
+}
