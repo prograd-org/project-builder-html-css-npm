@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {}
+
+/*.section1 {
+  background: url(./assets/b1.png);
+  width: 100%;
+}
+*/
+
+.section2 {
+    background: white;
+}
+
+.blackHeart {
+    height: 17px;
+    width: 34px;
+}
+
+.home {
+    /* border: solid 5px grey;*/
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.nav1 {
+    display: inline-block;
+}
+
+/* #nav1 {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 60%;
+} */
+/*
+.div2 {
+  order: 2;
+}
+
+.div3 {
+  order: 3;
+  margin-left: 80%;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}*/
+.Build {
+    background: url(./assets/b1.png);
+    justify-content: center;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-weight: solid;
+    border: solid 5px white;
+}
+
+.Take {
+    background: url(./assets/b1.png);
+    justify-content: center;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-weight: solid;
+    border: solid 5px white;
+}
+
+.section2 {
+    justify-content: center;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-weight: solid;
+    border: solid 5px white;
+}
+
+.section3 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-weight: solid;
+    border: solid 5px white;
+}
+
+.main {
+    border: solid 5px grey;
+}
+
+.common {
+    display: inline-block;
+}
+
+.section4 {
+    background: url(./assets/background.png);
+    justify-content: center;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-weight: solid;
+    border: solid 5px white;
+}
+
+.section5 {
+    justify-content: center;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-weight: solid;
+    border: solid 5px white;
+}
+
+.section6 {
+    justify-content: center;
+    align-items: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 40%;
+    border: solid 5px white;
+}
+
+.company {
+    height: 33%;
+    width: 33%;
+}
+
+.art1,
+.art2,
+.art3 {
+    text-align: left;
+}
+
+.foot {
+    height: 20px;
+    width: 20px;
+}
+
+.empty {
+    padding-left: 65%;
+    padding-right: 30px;
+}
+
+.search {
+    width: 60%;
+    background-color: whitesmoke;
+    border-color: white;
+}
+
+#btn {
+    background-color: black;
+    color: white;
+    width: 10%;
+}
+
+#sup {
+    /* background-color: white;
+  color: black;*/
+    padding: 13px 28px;
+    border: 1px solid #cccccc;
+    border-radius: 0;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+#sin {
+    background-color: white;
+    color: black;
+    /* border-color: white; */
+    margin-top: 12px;
+}
+
+.signup {
+    background: #c12127;
+    border-bottom: solid 5px #fa8717;
+    color: white;
+}
+
+.learn {
+    background: #e81aa8;
+    border-bottom: solid 5px #b30ad2;
+    color: white;
+}
+
+.A1 {
+    background-color: black;
+    height: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.A11 {
+    text-align: center;
+}
+
+.A12 {
+    color: white;
+    display: inline-block;
+    font-size: medium;
+
+}
