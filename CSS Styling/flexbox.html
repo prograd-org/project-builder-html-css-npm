@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .container {
+            min-height: 50ch;
+            width: 50ch;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-content: center;
+            flex-flow: column-reverse;
+
+
+        }
+
+        .container>div {
+            text-align: center;
+            font-size: 2em;
+        }
+
+        .home {
+            background-color: #84b0f8;
+        }
+
+        .about {
+            background-color: #f2857c;
+        }
+
+        .services {
+            background-color: #fcd35d;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+</head>
+
+<body>
+    <nav class="container">
+        <div class="home">Home</div>
+        <div class="about">About</div>
+        <div class="services">Services</div>
+    </nav>
+</body>
+
+</html>

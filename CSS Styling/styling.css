@@ -1,0 +1,25 @@
+* {
+    color: rgb(10, 85, 60);
+}
+
+p {
+    color: rgb(156, 183, 184);
+}
+
+h1,
+h2,
+p {
+    color: rgb(95, 41, 41);
+    font-family: sans-serif;
+}
+
+.sample {
+    color: rgb(48, 62, 104);
+    font-style: italic;
+}
+
+#sample {
+    color: rgb(126, 79, 46);
+    font-family: cursive;
+
+}

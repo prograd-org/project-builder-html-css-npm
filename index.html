@@ -4,106 +4,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ProGrad Skeleton </title>
+    <title>ProGrad </title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <nav>
         <ul>
-            <li>ProGrad</li>
+            <li class="logo-text">ProGrad</li>
             <li>
                 <ul>
-                    <li>HOME</li>
-                    <li>BIO</li>
-                    <li>PORTFOLIO</li>
-                    <li>SKILLS</li>
-                    <li>CONTACT</li>
+                    <li><a href="#home" class="nav-link">HOME</a></li>
+                    <li><a href="#bio" class="nav-link">BIO</a></li>
+                    <li><a href="#portfolio" class="nav-link">PORTFOLIO</a></li>
+                    <li><a href="#skills" class="nav-link">SKILLS</a></li>
+                    <li><a href="#contact" class="nav-link link-button">CONTACT</a></li>
                 </ul>
             </li>
         </ul>
     </nav>
-    <header>
+    <header id="home">
         <div>
             <p>I BELIEVE IN</p>
             <h1>EAT (); SLEEP (); CODE(); REPEAT();</h1>
         </div>
     </header>
-    <section>
-        <img src="assets/image.jpg" alt="image">
+    <section id="bio">
+        <img src="assets/prfpic.jpg" alt="image">
         <article>
             <h2>Narasimha Prasad</h2>
-            <p></p>
-            <a href="#">Download my resume</a>
+            <p>I am a passionate Enginner with a degree in ELectronics& Communication Engineering. My very first
+                experience with code was at the time when i was in my 1st year engineering. My interest towards coding
+                led me today to HTML& CSS. Sooner, the excitement of having the power to structure pages on my own
+                sounded amazing and thats when I decided to pursue Web Development</p>
+            <span class="break"></span>
+
+            <p>Recently, I've enrolled in a Front end web develpment bootcamp by Faceprep. I had little knowledge about
+                HTML,CSS and Javascript and this bootcamp helping me to learn the same.Rational thought process and
+                goal-oriented planning are my strengths.</p>
+            <span class="break"></span>
+            <p>I am currently on the look out for a challenging role to build products that make a difference.</p>
+            <span class="break"></span>
+            <a href="#" class="link-button">Download my resume</a>
         </article>
 
     </section>
-    <section>
+    <section id="portfolio">
         <h3>PORTFOLIO</h3>
         <p>Some of My best projects so far</p>
         <hr>
         <div>
-            <img src="assets/Coding-icon.svg" alt="image">
             <article>
+                <img src="assets/Coding-icon.svg" alt="image">
                 <h4>Personal Blog</h4>
-                <p></p>
+                <p>A personal blog where i pen my own thoughts on programming</p>
             </article>
-            <img src="assets/Coding-icon.svg" alt="image">
             <article>
+                <img src="assets/Coding-icon.svg" alt="image">
                 <h4>TIC TAC TOE</h4>
-                <p></p>
+                <p>Complete Tic Tac Toe game along with GUI using Java</p>
             </article>
-            <img src="assets/Coding-icon.svg" alt="image">
             <article>
-                <h4>TIME TABLE GENERATOR</h4>
-                <p></p>
+                <img src="assets/Coding-icon.svg" alt="image">
+                <h4>Chess</h4>
+                <p>To guess the queen movements from a given point</p>
             </article>
 
         </div>
 
     </section>
-    <section>
+    <section id="skills">
         <h3>SKILLS</h3>
-        <div>
-            <h4>TECHNICAL SKILLS</h4>
+        <div id="skill-container">
             <div>
-                <ul>
-                    <li>HTML</li>
-                    <li>
-                        <progress></progress>
-                    </li>
-                    <li>CSS</li>
-                    <li>
-                        <progress></progress>
-                    </li>
-                    <li>JAVA</li>
-                    <li><progress></progress></li>
-                    <li>JAVASCRIPT</li>
-                    <li><progress></progress></li>
-                    <li>ANGULAR</li>
-                    <li><progress></progress></li>
-                </ul>
+                <h4>TECHNICAL SKILLS</h4>
+                <div>
+                    <ul>
+                        <li>HTML</li>
+                        <li><progress max="100" value="80"></progress>
+                        </li>
+                        <li>CSS</li>
+                        <li>
+                            <progress max="100" value="80"> </progress>
+                        </li>
+                        <li>JAVA</li>
+                        <li><progress max="100" value="80"></progress></li>
+                        <li>JAVASCRIPT</li>
+                        <li><progress max="100" value="80"></progress></li>
+                        <li>ANGULAR</li>
+                        <li><progress max="100" value="80"></progress></li>
+                    </ul>
+                </div>
             </div>
-            <h4>LANGUAGES</h4>
             <div>
-                <ul>
-                    <li>ENGLISH</li>
-                    <li><progress></progress></li>
-                    <li>TELUGU</li>
-                    <li><progress></progress></li>
-                    <li>HINDI</li>
-                    <li><progress></progress></li>
-                </ul>
+                <h4>LANGUAGES</h4>
+                <div>
+                    <ul>
+                        <li>ENGLISH</li>
+                        <li><progress max="100" value="80"></progress></li>
+                        <li>TELUGU</li>
+                        <li><progress max="100" value="80"></progress></li>
+                        <li>HINDI</li>
+                        <li><progress max="100" value="80"></progress></li>
+                    </ul>
+                </div>
             </div>
         </div>
+
+
+
     </section>
-    <footer>
+    <footer id="contact">
         <h3>CONTACT</h3>
         <form action="#">
-            <input type="text" placeholder="Enter your name">
-            <input type="text" placeholder="Enter your email">
-            <input type="text" placeholder="Enter your message">
-            <input type="button" value="Send message">
+            <input class="input" type="text" placeholder="Enter your name">
+            <input class="input" type="text" placeholder="Enter your email">
+            <input class="input" type="text" placeholder="Enter your message">
+            <input type="submit" class="link-button" value="Send message">
         </form>
 
     </footer>
