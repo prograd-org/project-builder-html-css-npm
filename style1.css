@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 10px;
+    background: white;
+}
+
+header {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 5px;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    margin: 7px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.lower {
+    width: 100%;
+}
+
+header form {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+header form input {
+    padding: 15px;
+
+    align-items: center;
+}
+
+#search {
+    background: #edeef0;
+    /* border-style: none; */
+    border: none;
+    width: 900px;
+    margin-left: 30px;
+}
+
+#search-button {
+    background: black;
+    color: white;
+    width: 150px;
+    font-weight: 800;
+    font-size: 1em;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+#signup {
+    font-size: 1em;
+    font-weight: 700;
+    background: white;
+    width: 125px;
+}
+
+#signin {
+    font-size: 1em;
+    font-weight: 700;
+    background: white;
+    width: 120px;
+    border: none;
+    cursor: pointer;
+}
+
+.lower img {
+    margin-top: 20px;
+}
+
+#home {
+    padding: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#home1 {
+    background: url(./assets/b1.png);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    height: 350px;
+    width: 100%;
+}
+
+#home1 h1 {
+    font-size: 8em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#paragraph-1 {
+    display: flex;
+
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 1.6em;
+}
+
+#home2 {
+    background: url(./assets/background2.png);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 350px;
+    width: 100%;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+#home2 h2 {
+    display: flex;
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#paragraph-2 {
+    display: flex;
+
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 1.6em;
+}
+
+.button-1 {
+    font-weight: 800;
+    padding: 10px 40px;
+    height: 60px;
+    width: 220px;
+    font-size: 1.6em;
+    /* color: white; */
+    border-style: none;
+}
+
+#button {
+    display: flex;
+    flex-direction: row;
+}
+
+#button1 {
+    background: red;
+    color: white;
+    border-bottom: ridge orange;
+    margin-right: 30px;
+}
+
+#button2 {
+    background: rgb(218, 28, 208);
+    color: white;
+    border-bottom: ridge violet;
+}
+
+#home3 {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+    /* padding: px 0; */
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+#home3 h2 {
+    display: flex;
+    font-size: 4.1em;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(58, 58, 58);
+}
+
+#paragraph-3 {
+    display: flex;
+
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.7em;
+    font-weight: normal;
+    color: rgb(34, 32, 32);
+}
+
+#softwares-section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 70px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#softwares article p {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+#softwares h5 {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.software-button {
+    height: 40px;
+    width: 180px;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: white;
+    margin-top: 32px;
+    border-radius: 50px;
+    color: rgb(49, 49, 49);
+}
+
+.software-article {
+    margin-left: 40px;
+}
+
+#companies {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    /* justify-content: center; */
+    align-items: center;
+    /* width: 100%; */
+}
+
+#company-div {
+    background: url(./assets/background.png);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 330px;
+    width: 100%;
+    margin-top: 45px;
+    /* padding: 100px; */
+    margin-bottom: 30px;
+}
+
+#company-div h2 {
+    display: flex;
+    font-size: 6.5em;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 45px;
+}
+
+#company-div img {
+    padding-top: 25px;
+    /* margin: 0 5px; */
+}
+
+#company-div p {
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: 400;
+    margin-bottom: 200px;
+}
+
+#companies hr {
+    width: 1500px;
+}
+
+#company-div2 h2 {
+    font-size: 4.1em;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 50px;
+    margin: 50px;
+    text-align: center;
+    color: rgb(58, 58, 58);
+}
+
+#company-div3 img {
+    align-items: center;
+    padding-top: 10px;
+    height: 600px;
+    margin-bottom: 100px;
+}
+
+#footer-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+
+    width: 100%;
+}
+
+#footer-div div {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#footer-div ul {
+    list-style: none;
+    font-size: 1.5em;
+
+}
+
+#footer-div ul li {
+    margin: 22px 0;
+
+}
+
+#footer-div h4 {
+    font-size: 1.5em;
+    font-weight: 750;
+    color: black;
+
+}
+
+.footer-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+#footer-div img {
+    margin-bottom: 240px;
+    height: 100px;
+
+
+}
+
+#footer-lastdiv {
+    margin-bottom: 73px;
+}
