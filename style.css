@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Poppins,sans-serif;
+    font-family: Poppins, sans-serif;
 }
-header{
+
+header {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-.npmGit{
+
+.npmGit {
     background-color: black;
     color: white;
     padding: 25px 0;
@@ -18,21 +21,27 @@ header{
     justify-content: center;
     align-items: center;
 }
-.npmGit img,.npmGit i{
+
+.npmGit img,
+.npmGit i {
     height: 25px;
     font-size: 30px;
     color: white;
 }
-.npmGit a{
-    margin:0 20px;
+
+.npmGit a {
+    margin: 0 20px;
     font-size: 25px;
     color: white;
 }
-.line{
+
+.line {
     height: 10px;
-    background-image: linear-gradient(to right,darkorange,red,rgb(235, 23, 217));
+    background-image: linear-gradient(to right, darkorange, red, rgb(235, 23, 217));
 }
-.navbar,.formSection{
+
+.navbar,
+.formSection {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,25 +51,30 @@ header{
     border-bottom: 0.5px solid lightgray;
     flex-wrap: wrap;
 }
-.navbar div img{
+
+.navbar div img {
     height: 15px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
     font-weight: 700;
 }
-nav ul li{
-    margin:0 10px;
+
+nav ul li {
+    margin: 0 10px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: black;
     font-size: 15px;
 }
-.menus{
+
+.menus {
     position: relative;
     padding-top: 10px;
     font-weight: 600;
@@ -70,80 +84,97 @@ nav ul li a{
     margin-right: 20px;
     transform: translateY(-4px);
     cursor: pointer;
-    }
-#drop{
+}
+
+#drop {
     width: 120px;
     padding: 20px;
     position: absolute;
     right: -25px;
     background-color: white;
-    box-shadow: 0 0 4px 2px rgba(0,0,0,.2);
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, .2);
     display: none;
     border-radius: 5px;
 }
-#drop span{
+
+#drop span {
     display: block;
     text-align: left;
     padding-bottom: 5px;
-    font-weight:500;
+    font-weight: 500;
     font-size: 14px;
 }
-#dropdown:hover #drop{
+
+#dropdown:hover #drop {
     display: block;
 }
-.formSection{
+
+.formSection {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 20px 20px;
 }
-.search{
+
+.search {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     background-color: rgb(235, 235, 235);
     width: 600px;
     height: 50px;
-    margin:10px 0;
+    margin: 10px 0;
 }
-.search i{
+
+.search i {
     color: rgb(153, 153, 153);
     margin: 3px 5px 3px 10px;
     font-size: 20px;
 }
-.search input{
+
+.search input {
     font-size: 15px;
     width: 85%;
     background-color: inherit;
     border: none;
     padding: 8px 0;
+    outline: none;
 }
-.search-btn,.form-btn{
+
+.search-btn,
+.form-btn {
     padding: 13px 25px;
     background-color: black;
     color: white;
     font-size: 15px;
     font-weight: 500;
     border: none;
+    outline: none;
+    cursor: pointer;
 }
-.signup{
+
+.signup {
     background-color: white;
     color: black;
     border: 1px solid lightgray;
-    margin:0 20px;
+    margin: 0 20px;
 }
-.signin{
+
+.signin {
     background-color: white;
     color: black;
     border: none;
 }
-.section-one,.section-two,.section-four{
+
+.section-one,
+.section-two,
+.section-four {
     width: 100%;
     background-image: url('/assets/background2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding:100px 200px 80px 200px;
+    padding: 100px 200px 80px 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,29 +182,34 @@ nav ul li a{
     color: white;
     box-sizing: border-box;
 }
-.section-one h1{
+
+.section-one h1 {
     font-size: 80px;
     font-family: sans-serif;
 
 }
-.section-one p{
+
+.section-one p {
     font-size: 16px;
     line-height: 1.5;
-    margin:50px 0;
+    margin: 50px 0;
     padding: 0 40px;
     font-family: sans-serif;
 }
-.section-one h3{
+
+.section-one h3 {
     font-size: 40px;
     font-family: sans-serif;
 }
-.form-btns{
+
+.form-btns {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-.form-btns button{
+
+.form-btns button {
     background: #c12127;
     border: none;
     border-bottom: solid 5px #fa8717;
@@ -182,89 +218,119 @@ nav ul li a{
     padding: 15px 60px;
     margin: 10px 15px;
     font-weight: 600;
+    outline: none;
+    cursor: pointer;
 }
-.form-btns button:last-of-type{
+
+.form-btns button:last-of-type {
     background: #e81aa8;
     border-bottom: solid 5px #b30ad2;
 }
-.section-two{
+
+.section-two {
     background-image: unset;
-    padding:90px 250px 50px 250px;
+    padding: 90px 250px 50px 250px;
     color: black;
 }
-.section-two div img{
+
+.section-two div img {
     margin-bottom: 40px;
 }
-.section-three,.section-five{
+
+.section-three,
+.section-five {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding:30px 35px;
+    padding: 30px 35px;
     margin-top: -20px;
 }
-.section-three div{
+
+.section-three div {
     padding: 15px;
 }
-.section-three img{
+
+.section-three img {
     margin-right: 20px;
 }
-.section-three p,.section-three h5{
+
+.section-three p,
+.section-three h5 {
     padding: 0;
-    margin:20px 0;
+    margin: 20px 0;
     font-size: 14px;
     line-height: 2;
 }
-.section-three h5{
+
+.section-three h5 {
     font-size: 16px;
 }
-.section-three button{
-    padding:0.5rem 2rem;
+
+.section-three button {
+    padding: 0.5rem 2rem;
     letter-spacing: 0.2rem;
     text-transform: uppercase;
     background-color: white;
     border-radius: 20px;
-    border:1px solid black;
+    border: 1px solid black;
     font-weight: 900;
+    cursor: pointer;
+    outline: none;
 }
-.section-four{
+
+.section-four {
     background-image: url('/assets/background.png');
 }
-.section-four h1{
+
+.section-four h1 {
     font-size: 50px;
     margin-bottom: 40px;
 }
-.section-five{
+
+.section-five {
     flex-direction: column;
     background-image: unset;
-    padding:100px 250px 80px 250px;
+    padding: 100px 250px 80px 250px;
     text-align: center;
     box-sizing: border-box;
     border-bottom: 0.5px solid lightgray;
 }
-.section-five img{
+
+.section-five img {
     width: 600px;
     margin-top: 70px;
 }
-.section-five h3{
+
+.section-five h3 {
     font-size: 35px;
-    padding:0 60px;
+    padding: 0 60px;
     font-family: sans-serif;
 }
-footer{
+
+footer {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: stretch;
     color: black;
-    padding:50px 0;
+    padding: 50px 0;
     flex-wrap: wrap;
 }
-footer ul{
+
+footer ul {
     list-style-type: none;
 }
-footer ul li{
+
+footer ul li {
     margin: 20px 0;
     color: rgb(68, 68, 68);
+
 }
-footer .head{
+
+footer ul li:not(:first-of-type):hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+footer .head {
     font-weight: 800;
 }
