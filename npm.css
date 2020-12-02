@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins';
+    font-size: 15px;
+    background-color: white;
+}
+
+header>div {
+    padding: 12px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+
+
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.blackHeart {
+    width: 35px;
+    margin-right: 0.1rem;
+}
+
+.blackheart1 {
+    width: 80px;
+    color: white;
+}
+
+.company {
+    width: 500px;
+}
+
+.search {
+    width: 20px;
+}
+
+#part1 h1 {
+    font-size: 80px;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+}
+
+#part1 h2 {
+    color: white;
+    margin-bottom: 5%;
+}
+
+#part1 p {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5%;
+}
+
+#part1 {
+    background-image: url(assets/background2.png);
+    height: 1000px;
+}
+
+#part1 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+#part1 div article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#part1 div article p {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+
+
+#part1 h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+}
+
+#part2 {
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+
+#part2 article * {
+    margin: 10px;
+
+}
+
+#part2 div article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#part2 h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#part2 p {
+    margin-right: 30%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+#part3 div {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+#part3 div article {
+    background: white;
+    color: black;
+    height: 400px;
+    width: 250px;
+}
+
+#part4 h2 {
+    font-size: 40px;
+}
+
+#part4 {
+    background-image: url(assets/background.png);
+    height: 350px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#part4 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.5%;
+
+}
+
+#part4 h2 {
+    margin-left: 5%;
+    margin-bottom: 2%;
+    color: white;
+}
+
+#part4 div p {
+    margin-left: 30%;
+    margin-right: 25%;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+#part5 h3 {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+
+    text-align: center;
+}
+
+#part5 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+
+#part6 div {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 20px;
+    line-height: 40px;
+
+}
+
+#part6 div article {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.link-button {
+    text-align: center;
+    cursor: pointer;
+    font-weight: 200;
+    letter-spacing: 2px;
+    width: 120px;
+    height: 45px;
+    color: black;
+    background-color: white;
+    border-radius: 40%;
+
+}
+
+.link-button1 {
+    text-align: center;
+    cursor: pointer;
+    font-weight: 200;
+    letter-spacing: 2px;
+    width: 90px;
+    height: 35px;
+    color: white;
+    background-color: black;
+
+
+}
+
+.link-button2 {
+    text-align: center;
+    cursor: pointer;
+    font-weight: 200;
+    letter-spacing: 2px;
+    width: 185px;
+    height: 48px;
+    color: white;
+    background-color: red;
+
+
+}
+
+.link-button3 {
+    text-align: center;
+    cursor: pointer;
+    font-weight: 200;
+    letter-spacing: 2px;
+    width: 185px;
+    height: 48px;
+    color: white;
+    background-color: rgb(247, 12, 196);
+
+
+}
+
+.link-button4 {
+    text-align: center;
+    cursor: pointer;
+    font-weight: 200;
+    letter-spacing: 2px;
+    width: 90px;
+    height: 35px;
+    color: black;
+    background-color: white;
+}
+
+hr {
+    margin: 0 50px;
+}
